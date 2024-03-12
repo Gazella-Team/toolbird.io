@@ -1,6 +1,7 @@
 import { Reveal } from "../Animations/Reveal";
 import { useRouter } from 'next/router'
 import Link from "next/link";
+import WaitlistInput from "./WaitlistInput";
 
 export default function MainHero(props:any) {
     const router = useRouter()
@@ -17,8 +18,7 @@ export default function MainHero(props:any) {
                 {path === "/" ? 
                 <Reveal delayTime={0.2}>
                     <div className="flex items-center justify-center gap-[16px] mt-[50px]">
-                     <Link className="bg-white text-main text-center px-[24px] py-[10px] text-[15px] rounded-full font-[300]" href={"/"}>Join Waitlist</Link>
-                     <Link className="bg-white text-main text-center px-[24px] py-[10px] text-[15px] rounded-full font-[300]" href={"/pricing"}>View Pricing</Link>
+                        <WaitlistInput />
                     </div>
                 </Reveal>
                 :
