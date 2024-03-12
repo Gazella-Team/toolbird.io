@@ -2,7 +2,7 @@ import { Reveal } from "../Animations/Reveal"
 
 export default function SectionStarter(props:any) {
     return (
-        <section className="py-[100px]">
+        <section>
             <div className="w-[90%] mx-auto max-w-[1000px] text-center">
                 <Reveal delayTime={0.3}>
                     <h1 className="font-[300] text-gray-800 text-[40px] mb-[14px]">{props.heading}</h1>
