@@ -1,4 +1,4 @@
-import { Reveal } from "./Animations/Reveal";
+import { RevealLight } from "./Animations/RevealLight";
 import SectionStarter from "./Ui/SectionStarter";
 
 const comparisonData = [
@@ -36,10 +36,10 @@ export default function Comparison() {
         </section>
     )
 }
-
+//
 const ComparisonCard = (props:any) => {
     return (
-        <Reveal delayTime={0}>
+        <RevealLight delayTime={0.3}>
             <div className="flex flex-col shadow-clean rounded-[14px] text-left p-[30px]">
                 <div className="flex items-center gap-[20px] mb-[40px]">
                     <div className="bg-gray-100 p-[14px] rounded-[14px]">
@@ -56,6 +56,6 @@ const ComparisonCard = (props:any) => {
                     <img className="w-[100px]" src={props.Obj.replaces}></img>
                 </div>
             </div>
-        </Reveal>
+        </RevealLight>
     )
 }
