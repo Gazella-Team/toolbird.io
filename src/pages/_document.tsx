@@ -1,3 +1,4 @@
+import Meta from "@/components/Layout/Meta";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
@@ -5,6 +6,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"></link>
+      <Meta title="ToolBird" />
       </Head>
       <body>
         <Main />
