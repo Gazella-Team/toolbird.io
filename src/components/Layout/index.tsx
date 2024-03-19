@@ -5,35 +5,6 @@ import Footer from "./Footer";
 import { useState } from "react";
 import Link from "next/link";
 
-const GazellaTeamFont = localFont({
-  src: [
-    {
-      path: '../fonts/stolzl_bold.otf',
-      weight: '500',
-      style: 'normal',
-    },
-    {
-      path: '../fonts/stolzl_medium.otf',
-      weight: '400',
-      style: 'normal',
-    },
-    {
-      path: '../fonts/stolzl_regular.otf',
-      weight: '300',
-      style: 'normal',
-    },
-    {
-      path: '../fonts/stolzl_book.otf',
-      weight: '200',
-      style: 'normal',
-    },
-    {
-      path: '../fonts/stolzl_light.otf',
-      weight: '100',
-      style: 'normal',
-    },
-  ],
-})
 export default function Layout({
   className,
   children,
@@ -49,8 +20,9 @@ export default function Layout({
     <div className="flex flex-col justify-between min-h-screen">
     <Meta />
       <div>
-        <div className={GazellaTeamFont.className}>
-          {noticeActive ?           <div className="w-full fixed bg-white border-b-[1px] z-40 h-[50px] flex items-center justify-between">
+        <div>
+          {noticeActive ?
+          <div className="w-full fixed bg-white border-b-[1px] z-40 h-[50px] flex items-center justify-between">
             <div className="w-[98%] mx-auto text-center flex items-center justify-between">
             <div className="w-[10%]"></div>
             <p className="font-[200] text-[14px] text-gray-800">Earn $10 today with our affiliate program. <span className="text-main underline cursor-pointer"><Link href={"/collaborate/affiliate"}>Learn more</Link></span></p>

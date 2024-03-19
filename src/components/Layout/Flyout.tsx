@@ -13,7 +13,7 @@ export default function Flyout(props:any) {
     const solutions = props.links
   return (
     <Popover className="relative">
-      <Popover.Button className="inline-flex items-center gap-x-1 text-[15px] font-[200] leading-6">
+      <Popover.Button className="inline-flex items-center gap-x-1 text-[15px] font-[400] leading-6">
         <span>{props.triggerName}</span>
         <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
       </Popover.Button>

@@ -138,22 +138,22 @@ const PriceCard = (props:any) => {
         <Reveal delayTime={0}>
             <div>
                 <div className="h-[60px]">
-                    <p className="rounded-full bg-yellow-400 inline-block px-[10px] py-[6px] text-[12px] font-[400] text-yellow-900">Most popular</p>
+                    <p className="rounded-full bg-yellow-400 inline-block px-[10px] py-[6px] text-[12px] font-[800] text-yellow-900">Most popular</p>
                 </div>
                 <div className="flex items-center gap-[6px]">
                         {props.Obj.icon}
-                        <h2 className="text-[24px] font-[300] text-gray-800">{props.Obj.planName}</h2>
+                        <h2 className="text-[24px] font-[500] text-gray-800">{props.Obj.planName}</h2>
                     </div>
-                <h3 className="font-[200] text-[14px] text-gray-500">{props.Obj.planDescription}</h3>
+                <h3 className="font-[400] text-[14px] text-gray-500">{props.Obj.planDescription}</h3>
             </div>
         </Reveal>
         <Reveal delayTime={0}>
             <div>
-                <h1 className="text-[46px] font-[300] text-gray-800">{props.Obj.planPrice}<span className="text-[15px] font-[200] text-gray-600">{props.Obj.planPriceMethod}</span></h1>
+                <h1 className="text-[46px] font-[600] text-gray-800">{props.Obj.planPrice}<span className="text-[15px] font-[300] text-gray-600">{props.Obj.planPriceMethod}</span></h1>
             </div>
         </Reveal>
         <Reveal delayTime={0}>
-            <div className="bg-main text-white font-[200] text-center w-full py-[10px] text-[15px] rounded-full">
+            <div className="bg-main text-white font-[500] text-center w-full py-[10px] text-[15px] rounded-full">
                 <Link href={"/pricing"}>
                     Choose {props.Obj.planName}
                 </Link>
@@ -166,7 +166,7 @@ const PriceCard = (props:any) => {
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
                     <path fillRule="evenodd" d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
                     </svg>
-                    <p className="font-[200] text-[15px]">{v}</p>
+                    <p className="font-[400] text-[15px] text-gray-800">{v}</p>
                 </div>)}
                 {props.Obj.discludes.map((v:any, index:any) => 
                 <div key={index} className="flex items-center gap-[6px]">
@@ -174,7 +174,7 @@ const PriceCard = (props:any) => {
                 <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                 </svg>
 
-                    <p className="font-[200] text-[15px] text-gray-400">{v}</p>
+                    <p className="font-[400] text-[15px] text-gray-400">{v}</p>
                 </div>)}
             </div>
         </Reveal>
@@ -185,18 +185,18 @@ const PriceCard = (props:any) => {
                 <div>
                     <div className="flex items-center gap-[6px]">
                         {props.Obj.icon}
-                        <h2 className="text-[24px] font-[300] text-gray-800">{props.Obj.planName}</h2>
+                        <h2 className="text-[24px] font-[500] text-gray-800">{props.Obj.planName}</h2>
                     </div>
-                    <h3 className="font-[200] text-[14px] text-gray-500">{props.Obj.planDescription}</h3>
+                    <h3 className="font-[400] text-[14px] text-gray-500">{props.Obj.planDescription}</h3>
                 </div>
             </Reveal>
             <Reveal delayTime={0}>
                 <div>
-                    <h1 className="text-[46px] font-[300] text-gray-800">{props.Obj.planPrice}<span className="text-[15px] font-[200] text-gray-600">{props.Obj.planPriceMethod}</span></h1>
+                    <h1 className="text-[46px] font-[600] text-gray-800">{props.Obj.planPrice}<span className="text-[15px] font-[200] text-gray-600">{props.Obj.planPriceMethod}</span></h1>
                 </div>
             </Reveal>
             <Reveal delayTime={0}>
-                <div className="bg-main text-white font-[200] text-center w-full py-[10px] text-[15px] rounded-full">
+                <div className="bg-main text-white font-[500] text-center w-full py-[10px] text-[15px] rounded-full">
                     {props.Obj.planName === "Enterprise" ?                     
                     <Link href={"/pricing"}>
                         Contact Sales
@@ -213,7 +213,7 @@ const PriceCard = (props:any) => {
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
                     <path fillRule="evenodd" d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z" clipRule="evenodd" />
                     </svg>
-                    <p className="font-[200] text-[15px] text-gray-800">{v}</p>
+                    <p className="font-[400] text-[15px] text-gray-800">{v}</p>
                 </div>)}
                 {props.Obj.discludes.map((v:any, index:any) => 
                 <div key={index} className="flex items-center gap-[6px]">
@@ -221,7 +221,7 @@ const PriceCard = (props:any) => {
                 <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
                 </svg>
 
-                    <p className="font-[200] text-[15px] text-gray-400">{v}</p>
+                    <p className="font-[400] text-[15px] text-gray-400">{v}</p>
                 </div>)}
             </div>
         </Reveal>
