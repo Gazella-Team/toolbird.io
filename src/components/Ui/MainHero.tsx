@@ -18,7 +18,9 @@ export default function MainHero(props:any) {
                     </Reveal>
                 </div>
                 <div className="w-[70%]">
-                    <img className="w-[140px] select-none" src="/arrows/arrow.svg"></img>
+                    <Reveal delayTime={0}>
+                        <img className="w-[140px] select-none" src="/arrows/arrow.svg"></img>
+                    </Reveal>
                 </div>
             </div>
         </section>

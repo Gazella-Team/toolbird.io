@@ -22,7 +22,7 @@ export default function Layout({
       <div>
         <div>
           {noticeActive ?
-          <div className="w-full fixed bg-main text-white border-b-[1px] z-40 h-[50px] flex items-center justify-between">
+          <div className="w-full fixed bg-main text-white z-40 h-[50px] flex items-center justify-between">
             <div className="w-[98%] mx-auto text-center flex items-center justify-between">
             <div className="w-[10%]"></div>
             <p className="font-[500] text-[14px]">😜 Earn $10 today with our affiliate program. <span className="text-main underline cursor-pointer"><Link href={"/collaborate/affiliate"}>Learn more</Link></span></p>

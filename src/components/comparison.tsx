@@ -27,7 +27,7 @@ const comparisonData = [
 export default function Comparison() {
     return (
         <section className="py-[100px]">
-            <div className="w-[90%] mx-auto max-w-[1200px] text-center">
+            <div className="w-[90%] mx-auto max-w-[1200px]">
                 <SectionStarter heading="All tools in one place" paragraph="Wake up to an inbox full of new testimonial alerts. Share them everywhere in seconds. Get more visits, convert more, and close more deals. Senja makes it easy." />
                 <div className="grid grid-cols-2 gap-[20px]">
                     {comparisonData.map((v, index) => <ComparisonCard key={index} Obj={v} />)}
@@ -40,14 +40,14 @@ export default function Comparison() {
 const ComparisonCard = (props:any) => {
     return (
         <RevealLight delayTime={0.3}>
-            <div className="flex flex-col shadow-clean rounded-[14px] text-left p-[30px]">
+            <div className="flex flex-col border-[1px] rounded-[14px] text-left p-[30px]">
                 <div className="flex items-center gap-[20px] mb-[40px]">
                     <div className="bg-gray-100 p-[14px] rounded-[14px]">
                         {props.Obj.icon}
                     </div>
                     <div>
-                        <h1 className="font-[300] mb-[0px] text-gray-800 text-[20px]">{props.Obj.heading}</h1>
-                        <p className="font-[200] text-gray-600">{props.Obj.description}</p>
+                        <h1 className="font-[300] mb-[0px] text-gray-800 text-[20px] headingText">{props.Obj.heading}</h1>
+                        <p className="font-[300] text-gray-600">{props.Obj.description}</p>
                     </div>
                 </div>
                 <img className="rounded-[14px] mb-[40px] border-[1px]" src={props.Obj.image}></img>
