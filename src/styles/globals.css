@@ -5,3 +5,12 @@
 * {
     font-family: "DM Sans";
 }
+
+@font-face {
+    font-family: 'headingFont';
+    src: url('/fonts/Rebond Grotesque Bold.otf'); /* Specify the path to your font file relative to the public directory */
+}
+
+.headingText {
+    font-family: "headingFont";
+}
