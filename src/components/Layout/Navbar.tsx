@@ -8,7 +8,7 @@ export default function Navbar({ white }: { white: boolean }) {
   const path = router.pathname;
   return white ? (
     <nav className="h-[90px] flex items-center bg-transparent">
-      <div className="w-[96%] mx-auto flex items-center justify-between text-gray-800">
+      <div className="w-[95%] mx-auto max-w-[1400px] flex items-center justify-between text-gray-800">
         <div className="w-[50%] flex items-center justify-start">
           <Link href={"/"}>
             <img className="w-[120px]" src="/logos/logogray.svg"></img>

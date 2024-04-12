@@ -8,31 +8,17 @@ import JoinWaitlistModal from "./modals/JoinWaitlistModal";
 
 export default function Hero() {
   return (
-    <section className="py-[100px] pb-[0px]">
-      <div className="w-[96%] mx-auto max-w-[1100px] flex flex-col gap-5 text-center">
-        <Reveal delayTime={0.1}>
-          <h1 className="text-[36px] md:text-[46px] xl:text-[56px] leading-[110%] font-bold text-gray-800 heading">
-            The ultimate toolbox for SaaS developers to get better overview and
-            save time
-          </h1>
-        </Reveal>
-        <Reveal delayTime={0.2}>
-          <p className="text-base md:text-lg xl:text-xl font-regular max-w-[800px] mx-auto text-gray-600">
-            Manage web analytics, cron jobs, monitoring, feature flags,
-            waitlists, client feedback and more within just one platform.
-            ToolBird makes building tech products easier
-          </p>
-        </Reveal>
-        <RevealLight delayTime={0.4}>
-          <div className="flex items-center justify-center gap-2 mt-4 font-medium">
-            <button
-              onClick={() => NiceModal.show(JoinWaitlistModal)}
-              className="bg-main border-[3px] border-main text-white px-6 py-2 rounded-full"
-            >
-              Join waitlist
-            </button>
-          </div>
-        </RevealLight>
+    <section>
+      <div className="w-[95%] mx-auto max-w-[1400px] bg-slate-50 rounded-3xl min-h-[700px] py-24 text-center flex flex-col items-center">
+        <div className="flex flex-col gap-3">
+          <h1 className="text-6xl font-semibold text-gray-800">Build and launch <span className="bg-gradient-to-r from-main via-[#7134eb] via-[#6531cc] via-[#7134eb] to-main text-transparent bg-clip-text">products faster</span></h1>
+          <p className="text-lg mx-auto max-w-[800px] text-gray-600">Manage web analytics, cron jobs, monitoring, feature flags, waitlists, client feedback and more within just one platform. ToolBird makes building tech products easier</p>
+        </div>
+        <div className="flex items-center gap-3 my-10 mb-20">
+          <Link className="bg-main border-[3px] border-main px-6 py-3 text-white rounded-full font-semibold text-sm" href={"/"}>Join Waitlist</Link>
+          <Link className="bg-transparent border-[3px] border-main px-6 py-3 text-main rounded-full font-semibold text-sm" href={"/"}>Learn More</Link>
+        </div>
+        <img className="w-[80%] border border-gray-600/10 mx-auto shadow-clean rounded-xl flip" src="/showcases/dash.webp"></img>
       </div>
     </section>
   );

@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <Layout white={true}>
       <Hero />
-      <DashboardDisplay />
     </Layout>
   )
 }
