@@ -10,12 +10,12 @@ import {
 } from '@heroicons/react/24/outline'
 
 export default function Flyout(props:any) {
-    const solutions = props.links
+  const solutions = props.links
   return (
     <Popover className="relative">
-      <Popover.Button className="inline-flex items-center gap-x-1 text-[15px] font-[200] leading-6">
+      <Popover.Button className="inline-flex items-center gap-x-1 text-[15px] font-semibold leading-6 text-gray-800">
         <span>{props.triggerName}</span>
-        <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
+        <ChevronDownIcon className="mb-1 w-5" aria-hidden="true" />
       </Popover.Button>
 
       <Transition
@@ -30,18 +30,18 @@ export default function Flyout(props:any) {
         <Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
           <div className="w-screen max-w-[50%] mx-auto flex-auto overflow-hidden p-10 rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
             <div className='flex items-center gap-[10px] mb-[30px]'>
-              <h1 className='text-gray-800 text-[24px] font-[300]'>{props.heading}</h1>
+              <h1 className='text-gray-800 text-[24px] font-semibold'>{props.heading}</h1>
             </div>
 
             <div className="grid grid-cols-2 gap-x-[30px] gap-y-[30px]">
               {solutions.map((item:any) => (
                 <div key={item.name} className="group relative flex items-center gap-x-6 py-2 px-4 border-l-[3px] border-main hover:bg-gray-50 transition-all">
                   <div>
-                    <a href={item.href} className="font-[400] text-gray-800">
+                    <a href={item.href} className="font-semibold text-gray-800">
                       {item.name}
                       <span className="absolute inset-0" />
                     </a>
-                    <p className="mt-1 text-gray-600">{item.description}</p>
+                    <p className="mt-1 text-gray-600 font-medium">{item.description}</p>
                   </div>
                 </div>
               ))}

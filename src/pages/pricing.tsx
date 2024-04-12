@@ -1,3 +1,4 @@
+import DefaultHero from "@/components/DefaultHero";
 import Layout from "@/components/Layout";
 import PageIntro from "@/components/PageIntro";
 import PricingTable from "@/components/pricingtable";
@@ -5,7 +6,7 @@ import PricingTable from "@/components/pricingtable";
 export default function Pricing() {
     return (
         <Layout white={true}>
-            <PageIntro hook="⚡️ Flexible pricing" highlighted="everyone" heading="Pricing for" paragraph="Wake up to an inbox full of new testimonial alerts. Share them everywhere in seconds. Get more visits, convert more, and close more deals. Senja makes it easy." />
+            <DefaultHero heading="Flexible pricing" description="Manage web analytics, cron jobs, monitoring, feature flags, waitlists, client feedback and more within just one platform. ToolBird makes building tech products easier" />
             <PricingTable />
         </Layout>
     )
