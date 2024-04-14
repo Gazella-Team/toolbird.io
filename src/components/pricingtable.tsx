@@ -110,7 +110,7 @@ const PricingCard = (props:any) => {
             </div>
             <div className="p-6 flex flex-col gap-4">
                 <div className="mb-2">
-                    <h1 className="text-5xl">{props.Obj.planPrice}<span className="text-base text-gray-600 font-[200]">/ {props.Obj.paymentRuntime}</span></h1>
+                    <h1 className="text-5xl font-semibold">{props.Obj.planPrice}<span className="text-base text-gray-600 font-light">/ {props.Obj.paymentRuntime}</span></h1>
                 </div>
                 <p className="font-[200] text-gray-600">{props.Obj.planTarget}</p>
                 {props.Obj.mostPopular ?
