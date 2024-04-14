@@ -10,7 +10,7 @@ export default function Navbar({ white }: { white: boolean }) {
   return white ? (
     <nav className="h-[80px] flex items-center bg-transparent">
       <div className="w-[95%] mx-auto max-w-[1400px] flex items-center justify-between text-gray-800">
-        <div className="w-[50%] flex items-center justify-start">
+        <div className="w-[20%] flex items-center justify-start">
           <Link href={"/"}>
             <img className="w-[120px]" src="/logos/logogray.svg"></img>
           </Link>
@@ -20,8 +20,9 @@ export default function Navbar({ white }: { white: boolean }) {
           <Link className="text-[15px] font-semibold leading-6 text-gray-800" href={"/pricing"}>Pricing</Link>
           <Flyout triggerName="Company" heading="Every tool needed" links={[{name:"Waitlists", href:"/", description: "Create and share your waitlist with 2 clicks"}, {name:"Waitlists", href:"/", description: "Create and share your waitlist with 2 clicks"}, {name:"Waitlists", href:"/", description: "Create and share your waitlist with 2 clicks"}, {name:"Waitlists", href:"/", description: "Create and share your waitlist with 2 clicks"}]} />
           <Flyout triggerName="Learning" heading="Every tool needed" links={[{name:"Waitlists", href:"/", description: "Create and share your waitlist with 2 clicks"}, {name:"Waitlists", href:"/", description: "Create and share your waitlist with 2 clicks"}, {name:"Waitlists", href:"/", description: "Create and share your waitlist with 2 clicks"}, {name:"Waitlists", href:"/", description: "Create and share your waitlist with 2 clicks"}]} />
+          <Flyout triggerName="Work with us" heading="Every tool needed" links={[{name:"Affiliate", href:"/work-with-us/affiliate", description: "Create and share your waitlist with 2 clicks"}, {name:"Waitlists", href:"/", description: "Create and share your waitlist with 2 clicks"}, {name:"Waitlists", href:"/", description: "Create and share your waitlist with 2 clicks"}, {name:"Waitlists", href:"/", description: "Create and share your waitlist with 2 clicks"}]} />
         </div>
-        <div className="w-[50%] flex items-center justify-end gap-5 font-medium">
+        <div className="w-[20%] flex items-center justify-end gap-5 font-medium">
           <Link className="hidden sm:flex" target="_blank" href={"https://app.toolbird.io/auth/login"}>
             Log in
           </Link>

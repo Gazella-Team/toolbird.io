@@ -8,7 +8,7 @@ type DefaultHeroProps = {
 export default function DefaultHero(props:DefaultHeroProps) {
     return (
         <section className="bg-main pt-36 pb-20 mb-20">
-            <div className="text-white w-[96%] mx-auto max-w-[1300px] flex flex-col gap-5">
+            <div className="text-white w-[96%] mx-auto max-w-[1300px] flex flex-col gap-3">
                 <Reveal delayTime={0}>
                     <h1 className="font-semibold text-6xl">{props.heading}</h1>
                 </Reveal>
