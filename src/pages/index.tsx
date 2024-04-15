@@ -1,3 +1,4 @@
+import FeatureGrid from "@/components/FeatureGrid";
 import Layout from "@/components/Layout";
 import DashboardDisplay from "@/components/dashboarddisplay";
 import Features from "@/components/features";
@@ -8,7 +9,7 @@ export default function Home() {
   return (
     <Layout white={true}>
       <Hero />
-      <Mission />
+      <FeatureGrid />
     </Layout>
   )
 }
