@@ -7,7 +7,9 @@ export default function Pricing() {
     return (
         <Layout white={true}>
             <DefaultHero heading="Flexible pricing" description="Manage web analytics, cron jobs, monitoring, feature flags, waitlists, client feedback and more within just one platform. ToolBird makes building tech products easier" />
-            <PricingTable />
+            <div className="mt-[-250px]">
+                <PricingTable />
+            </div>
         </Layout>
     )
 }
