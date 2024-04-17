@@ -8,7 +8,7 @@ import JoinWaitlistModal from "./modals/JoinWaitlistModal";
 
 export default function Hero() {
   return (
-    <section>
+    <section className="bg-slate-50">
       <div className="w-[95%] mx-auto max-w-[1400px] bg-slate-50  bg-center bg-cover rounded-3xl min-h-[750px] py-24 text-center flex flex-col items-center">
         <div className="flex flex-col gap-3">
           <h1 className="text-6xl font-semibold text-gray-800 tracking-tight">Build and launch <span className="bg-gradient-to-r from-main via-[#7134eb] via-[#6531cc] via-[#7134eb] to-main text-transparent bg-clip-text">products faster</span></h1>

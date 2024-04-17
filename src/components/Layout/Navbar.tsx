@@ -12,7 +12,7 @@ export default function Navbar({ white }: { white: boolean }) {
       <div className="w-[95%] mx-auto max-w-[1400px] flex items-center justify-between text-gray-800">
         <div className="w-[20%] flex items-center justify-start">
           <Link href={"/"}>
-            <img className="w-[120px]" src="/logos/logogray.svg"></img>
+            <img className="w-[110px]" src="/logos/logogray.svg"></img>
           </Link>
         </div>
         <div className="flex items-center justify-center gap-8">
