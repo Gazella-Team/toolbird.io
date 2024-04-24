@@ -8,11 +8,11 @@ import JoinWaitlistModal from "./modals/JoinWaitlistModal";
 
 export default function Hero() {
   return (
-    <section className="bg-gray-100">
-      <div className="w-[95%] mx-auto max-w-[1400px] bg-gray-100  bg-center bg-cover rounded-3xl min-h-[750px] py-24 text-center flex flex-col items-center">
+    <section className="">
+      <div className="w-[95%] mx-auto max-w-[1400px] bg-center bg-cover rounded-3xl py-24 text-center flex flex-col items-center">
         <div className="flex flex-col gap-3">
           <h1 className="text-6xl font-semibold text-gray-800 tracking-tight text-center">Build and launch <span className="bg-gradient-to-r from-main via-[#7134eb] via-[#6531cc] via-[#7134eb] to-main text-transparent bg-clip-text">products faster</span></h1>
-          <p className="text-lg mx-auto max-w-[800px] text-gray-600">Manage web analytics, cron jobs, monitoring, feature flags, waitlists, client feedback and more within just one platform. ToolBird makes building tech products easier</p>
+          <p className="text-lg mx-auto max-w-[800px] font-medium text-gray-600">Manage web analytics, cron jobs, monitoring, feature flags, waitlists, client feedback and more within just one platform. ToolBird makes building tech products easier</p>
         </div>
         <div className="flex items-center gap-3 my-10">
           <Link className="bg-main border-[3px] border-main px-6 py-3 text-white rounded-full font-semibold text-sm" href={"/"}>Join Waitlist</Link>
