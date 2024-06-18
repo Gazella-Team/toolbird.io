@@ -8,7 +8,86 @@ export default function PricingTable() {
 	const [pricingRuntime, setPricingRuntime] = useState('yearly')
 	return (
 		<section className="mb-24 mt-6">
-			<div className="grid grid-cols-1 lg:grid-cols-2 mx-auto max-w-6xl w-[86%] gap-14 lg:gap-6">
+			<div className="grid grid-cols-1 lg:grid-cols-3 mx-auto max-w-6xl w-[86%] gap-14 lg:gap-6">
+			<div className="bg-white relative rounded-3xl border border-gray-600/10 text-gray-800 shadow-sm">
+					<div className="flex relative flex-col gap-2 pb-12 px-7 pt-10">
+						<div className="flex items-center gap-3">
+							<div className="bg-gray-800 rounded-full h-4 w-4"></div>
+							<h3 className="font-semibold text-2xl text-gray-800">
+								Hobby
+							</h3>
+						</div>
+						<p className="text-gray-600 paragraph">
+							For hobby and side projects
+						</p>
+					</div>
+					<div className="px-7 pb-14">
+						<h1 className="text-5xl font-extrabold">
+							Let&apos;s talk
+						</h1>
+					</div>
+					<div className="bg-slate-50 paragraph border-y py-5 px-7 border-gray-600/10">
+						<div className="flex">
+							<Link
+								target="_blank"
+								href="https://cal.com/lasseosmann/toolbird-demo"
+								className="bg-gray-800 text-center w-full border-[3px] border-gray-800 text-sm font-medium text-white px-6 py-2 rounded-full"
+							>
+								Contact sales
+							</Link>
+						</div>
+					</div>
+					<div>
+						<h3 className="p-7 pb-0 paragraph text-gray-500 font-medium">
+							Custom specifications:
+						</h3>
+						<div className="py-10 pt-6 px-7 paragraph flex flex-col gap-6">
+							<div className="flex items-center gap-4">
+								<FaCheckCircle
+									size={18}
+									className="text-gray-800"
+								/>
+								<h2 className="text-gray-800">Custom seats</h2>
+							</div>
+							<div className="flex items-center gap-4">
+								<FaCheckCircle
+									size={18}
+									className="text-gray-800"
+								/>
+								<h2 className="text-gray-800">
+									Prioritized support
+								</h2>
+							</div>
+							<div className="flex items-center gap-4">
+								<FaCheckCircle
+									size={18}
+									className="text-gray-800"
+								/>
+								<h2 className="text-gray-800">
+									Unlimited page views
+								</h2>
+							</div>
+							<div className="flex items-center gap-4">
+								<FaCheckCircle
+									size={18}
+									className="text-gray-800"
+								/>
+								<h2 className="text-gray-800">
+									Unlimited custom events
+								</h2>
+							</div>
+							<div className="flex items-center gap-4">
+								<FaCheckCircle
+									size={18}
+									className="text-gray-800"
+								/>
+								<h2 className="text-gray-800">
+									Unlimited websites
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div
 					style={{
 						background:
@@ -121,6 +200,87 @@ export default function PricingTable() {
 						</div>
 					</div>
 				</div>
+				<div className="bg-white relative rounded-3xl border border-gray-600/10 text-gray-800 shadow-sm">
+					<div className="flex relative flex-col gap-2 pb-12 px-7 pt-10">
+						<div className="flex items-center gap-3">
+							<div className="bg-gray-800 rounded-full h-4 w-4"></div>
+							<h3 className="font-semibold text-2xl text-gray-800">
+								Business
+							</h3>
+						</div>
+						<p className="text-gray-600 paragraph">
+							For larger organizations
+						</p>
+					</div>
+					<div className="px-7 pb-14">
+						<h1 className="text-5xl font-extrabold">
+							Let&apos;s talk
+						</h1>
+					</div>
+					<div className="bg-slate-50 paragraph border-y py-5 px-7 border-gray-600/10">
+						<div className="flex">
+							<Link
+								target="_blank"
+								href="https://cal.com/lasseosmann/toolbird-demo"
+								className="bg-gray-800 text-center w-full border-[3px] border-gray-800 text-sm font-medium text-white px-6 py-2 rounded-full"
+							>
+								Contact sales
+							</Link>
+						</div>
+					</div>
+					<div>
+						<h3 className="p-7 pb-0 paragraph text-gray-500 font-medium">
+							Custom specifications:
+						</h3>
+						<div className="py-10 pt-6 px-7 paragraph flex flex-col gap-6">
+							<div className="flex items-center gap-4">
+								<FaCheckCircle
+									size={18}
+									className="text-gray-800"
+								/>
+								<h2 className="text-gray-800">Custom seats</h2>
+							</div>
+							<div className="flex items-center gap-4">
+								<FaCheckCircle
+									size={18}
+									className="text-gray-800"
+								/>
+								<h2 className="text-gray-800">
+									Prioritized support
+								</h2>
+							</div>
+							<div className="flex items-center gap-4">
+								<FaCheckCircle
+									size={18}
+									className="text-gray-800"
+								/>
+								<h2 className="text-gray-800">
+									Unlimited page views
+								</h2>
+							</div>
+							<div className="flex items-center gap-4">
+								<FaCheckCircle
+									size={18}
+									className="text-gray-800"
+								/>
+								<h2 className="text-gray-800">
+									Unlimited custom events
+								</h2>
+							</div>
+							<div className="flex items-center gap-4">
+								<FaCheckCircle
+									size={18}
+									className="text-gray-800"
+								/>
+								<h2 className="text-gray-800">
+									Unlimited websites
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className='mx-auto max-w-6xl w-[86%] mt-6'>
 				<div className="bg-white relative rounded-3xl border border-gray-600/10 text-gray-800 shadow-sm">
 					<div className="flex relative flex-col gap-2 pb-12 px-7 pt-10">
 						<div className="flex items-center gap-3">
