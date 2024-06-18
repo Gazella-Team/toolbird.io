@@ -19,6 +19,14 @@ const FOOTER_LINKS: {
 				label: 'Web Analytics',
 				href: '/analytics',
 			},
+			{
+				label: 'Privacy-friendly Analytics',
+				href: '/privacy-friendly-analytics',
+			},
+			{
+				label: 'Google Analytics Alternative',
+				href: '/google-analytics-alternative',
+			},
 		],
 	},
 	{
