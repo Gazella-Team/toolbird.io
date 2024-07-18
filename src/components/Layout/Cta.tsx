@@ -15,10 +15,11 @@ export default function Cta() {
 						</div>
 					</div>
 					<h2 className="text-[35px] md:text-[45px] xl:text-[50px] leading-[110%] max-w-[600px] mb-4 mx-auto font-extrabold text-gray-800">
+						Ready to experience{' '}
 						<span className="bg-gradient-to-r from-main via-violet-700 to-main text-transparent bg-clip-text">
-							Supercharge{' '}
+							worldclass
 						</span>{' '}
-						your user-driven SaaS development today
+						analytics for your website?
 					</h2>
 					<p className="text-base md:text-lg xl:text-lg paragraph max-w-[350px] mx-auto text-gray-600">
 						Increase your project overview today with the ultimate

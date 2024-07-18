@@ -15,8 +15,8 @@ export default function Hero03({children}:{children:React.ReactNode}) {
 					</p>
 				</Reveal>
 				<Reveal delayTime={0}>
-					<h1 className="text-[40px] md:text-[50px] xl:text-6xl leading-[110%] max-w-[840px] mx-auto font-extrabold text-gray-800">
-                        Collect and manage all user-insights in one place
+					<h1 className="text-[40px] md:text-[50px] xl:text-6xl xl:leading-[120%] max-w-[1000px] mx-auto font-extrabold text-gray-800">
+						Easy to use and privacy-friendly Google Analytics alternative
 					</h1>
 				</Reveal>
                 <Reveal delayTime={0.1}>
@@ -30,7 +30,13 @@ export default function Hero03({children}:{children:React.ReactNode}) {
 							href="https://app.toolbird.io/auth/register"
 							className="bg-main border-[3px] border-main font-medium text-sm text-white px-4 py-2 rounded-full"
 						>
-							Get started for free, no credit card
+							Get started for free
+						</Link>
+						<Link
+							href="https://app.toolbird.io/auth/register"
+							className="bg-gray-800 border-[3px] border-gray-800 font-medium text-sm text-white px-4 py-2 rounded-full"
+						>
+							View live demo
 						</Link>
 					</div>
 				</RevealLight>
