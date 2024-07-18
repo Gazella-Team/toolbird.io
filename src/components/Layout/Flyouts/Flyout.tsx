@@ -7,19 +7,29 @@ import { MessageSquare, MessagesSquare, PieChart } from 'lucide-react'
 
 const solutions = [
 	{
-		name: 'Web Analytics',
+		name: 'Privacy Focused',
 		description: 'Privacy-first web analytics of your visitors',
 		href: '/analytics',
 		icon: <PieChart className="text-gray-800 h-[18px] w-[18px]" />,
 	},
-	/*
 	{
-		name: 'Feedback Hub',
-		description: 'Easily collect user-feedback in a structured way',
-		href: '/feedback',
-		icon: <MessagesSquare className="text-gray-800 h-[18px] w-[18px]" />,
+		name: 'Lightweight Script',
+		description: 'Privacy-first web analytics of your visitors',
+		href: '/analytics',
+		icon: <PieChart className="text-gray-800 h-[18px] w-[18px]" />,
 	},
-	 */
+	{
+		name: 'Best marketprice',
+		description: 'Privacy-first web analytics of your visitors',
+		href: '/analytics',
+		icon: <PieChart className="text-gray-800 h-[18px] w-[18px]" />,
+	},
+	{
+		name: '1 minute setup',
+		description: 'Privacy-first web analytics of your visitors',
+		href: '/analytics',
+		icon: <PieChart className="text-gray-800 h-[18px] w-[18px]" />,
+	},
 ]
 
 export default function Flyout() {

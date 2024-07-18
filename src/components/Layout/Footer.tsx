@@ -13,10 +13,22 @@ const FOOTER_LINKS: {
 	links: { label: string; href: string; target?: string }[]
 }[] = [
 	{
-		title: 'Products',
+		title: 'Product',
 		links: [
 			{
-				label: 'Web Analytics',
+				label: 'Privact friendly',
+				href: '/analytics',
+			},
+			{
+				label: 'Lightweight script',
+				href: '/analytics',
+			},
+			{
+				label: 'Custom tracking',
+				href: '/analytics',
+			},
+			{
+				label: 'Testimonials',
 				href: '/analytics',
 			},
 		],
@@ -130,8 +142,7 @@ export default function Footer(props: FooterProps) {
 								alt="Toolbird Logo"
 							/>
 							<p className="text-gray-500 paragraph text-sm max-w-xs font-regular">
-								Get Web Analytics, Feedback Hub and User
-								Surveys, all collected in one place.
+								The best, fastest, most easy to use and privacy-friendly Google Analytics alternative.
 							</p>
 						</div>
 						<div className="flex">
@@ -192,7 +203,6 @@ export default function Footer(props: FooterProps) {
 						</a>
 					</p>
 					<div className="flex items-center gap-4">
-						<p>lasse@toolbird.io</p>
 						<p className="font-[Caveat] text-xl">
 							Made and hosted in the EU 🇪🇺
 						</p>
