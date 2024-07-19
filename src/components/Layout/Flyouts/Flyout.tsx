@@ -58,14 +58,18 @@ export default function Flyout() {
 									key={item.name}
 									className="group relative rounded-xl w-full p-4 hover:bg-slate-50"
 								>
-									<div>
-										<div className="font-semibold font-[Sora] flex items-center gap-2 text-gray-800">
-											{item.icon}
-											{item.name}
+									<div className='flex items-center gap-3'>
+										<div className='bg-white flex'>
+											<div className="font-semibold p-3 border rounded-xl paragraph flex items-center gap-2 text-gray-800">
+												{item.icon}
+											</div>
 										</div>
-										<p className="mt-1 text-gray-600 paragraph font-normal">
-											{item.description}
-										</p>
+										<div>
+											<h2>{item.name}</h2>
+											<p className="text-gray-500 paragraph text-xs font-normal">
+												{item.description}
+											</p>
+										</div>
 									</div>
 								</Link>
 							))}

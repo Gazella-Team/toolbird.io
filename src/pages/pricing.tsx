@@ -19,7 +19,7 @@ export default function Pricing() {
 			</CurvePageIntro>
 			{
 				<BlurSection
-					bottomMargin={true}
+					bottomMargin={false}
 					heading="Get all your answers"
 					hook="Frequently Asked Questions"
 				>

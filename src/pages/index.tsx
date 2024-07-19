@@ -23,6 +23,14 @@ export default function Home() {
 				<Hero />
 				<HeroDashboard />
 			</div>
+			<SectionIntro
+				topMargin={true}
+				heading="Powerful insights"
+				description="Track where your visitors come from, what device they are using and where in the world they are located."
+				hook="Features Included"
+			>
+				<BentoGridComponent />
+			</SectionIntro>
 			<BlurSection
 					bottomMargin={false}
 					heading="Reasons to become a Toolbird Affiliate"
@@ -166,14 +174,6 @@ export default function Home() {
 					</div>
 				</div>
 			</BlurSection>
-			<SectionIntro
-				topMargin={true}
-				heading="Powerful insights"
-				description="Track where your visitors come from, what device they are using and where in the world they are located."
-				hook="Features Included"
-			>
-				<BentoGridComponent />
-			</SectionIntro>
 		</Layout>
 	)
 }
