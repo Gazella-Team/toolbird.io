@@ -14,12 +14,12 @@ import { CheckCircle2, Webhook } from 'lucide-react'
 export default function Home() {
 	return (
 		<Layout whiteBeforeScroll={true} white={true}>
-			<div className='hidden md:block'>
+			<div className='hidden lg:block'>
 				<Hero03>
 					<HeroDashboard />
 				</Hero03>
 			</div>
-			<div className='block md:hidden'>
+			<div className='block lg:hidden'>
 				<Hero />
 				<HeroDashboard />
 			</div>

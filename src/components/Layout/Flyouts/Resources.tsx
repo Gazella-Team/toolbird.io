@@ -3,32 +3,32 @@ import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { ChartBarIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
-import { MessageSquare, MessagesSquare, PieChart } from 'lucide-react'
+import { Album, BookCopy, CaseLower, MessageSquare, MessagesSquare, PenTool, PieChart, Plus } from 'lucide-react'
 
 const solutions = [
 	{
 		name: 'Blog',
 		description: 'Privacy-first web analytics of your visitors',
 		href: '/analytics',
-		icon: <PieChart className="text-gray-800 h-[18px] w-[18px]" />,
+		icon: <BookCopy className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
 		name: 'Docs',
 		description: 'Privacy-first web analytics of your visitors',
 		href: '/analytics',
-		icon: <PieChart className="text-gray-800 h-[18px] w-[18px]" />,
+		icon: <Album className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
 		name: 'Extra tools',
 		description: 'Privacy-first web analytics of your visitors',
 		href: '/analytics',
-		icon: <PieChart className="text-gray-800 h-[18px] w-[18px]" />,
+		icon: <Plus className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
 		name: 'Glossary',
 		description: 'Privacy-first web analytics of your visitors',
 		href: '/analytics',
-		icon: <PieChart className="text-gray-800 h-[18px] w-[18px]" />,
+		icon: <CaseLower className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 ]
 
@@ -51,16 +51,16 @@ export default function Flyout() {
 			>
 				<Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
 					<div className="w-screen max-w-sm flex overflow-hidden rounded-xl bg-white text-sm leading-6 shadow-clean ring-1 ring-gray-600/10">
-						<div className="p-4 grid grid-cols-1 w-full">
+						<div className="p-4 grid grid-cols-1 gap-4 w-full">
 							{solutions.map((item) => (
 								<Link
 									href={item.href}
 									key={item.name}
-									className="group relative rounded-xl w-full p-4 hover:bg-slate-50"
+									className="group relative rounded-xl w-full p-2 hover:bg-slate-50"
 								>
 									<div className='flex items-center gap-3'>
-										<div className='bg-white flex'>
-											<div className="font-semibold p-3 border rounded-xl paragraph flex items-center gap-2 text-gray-800">
+										<div className='flex'>
+											<div className="font-semibold shadow-sm bg-white p-3 border rounded-xl paragraph flex items-center gap-2 text-gray-800">
 												{item.icon}
 											</div>
 										</div>

@@ -15,13 +15,13 @@ export default function Hero03({children}:{children:React.ReactNode}) {
 					</p>
 				</Reveal>
 				<Reveal delayTime={0}>
-					<h1 className="text-[40px] md:text-[50px] xl:text-6xl xl:leading-[120%] max-w-[1000px] mx-auto font-extrabold text-gray-800">
+					<h1 className="text-[40px] leading-[120%] md:text-[50px] xl:text-6xl xl:leading-[120%] max-w-[1000px] mx-auto font-extrabold text-gray-800">
 						Easy to use and privacy-friendly Google Analytics alternative
 					</h1>
 				</Reveal>
                 <Reveal delayTime={0.1}>
 				    <p className="text-base paragraph md:text-lg mt-4 xl:text-lg font-regular max-w-xl mx-auto text-gray-600">
-                        Toolbird provides web analytics, feedback hub and user surveys, all in one place. Get better overview and save money today.
+                        Toolbird is privacy-focused, lightweight and intuitive web analytics, allowing you to track analytics of all traffic going through your website.
 					</p>
 				</Reveal>
                 <RevealLight delayTime={0.4}>
@@ -33,7 +33,7 @@ export default function Hero03({children}:{children:React.ReactNode}) {
 							Get started for free
 						</Link>
 						<Link
-							href="https://app.toolbird.io/auth/register"
+							href="https://app.toolbird.io/share/toolbird.io"
 							className="bg-gray-800 border-[3px] border-gray-800 font-medium text-sm text-white px-4 py-2 rounded-full"
 						>
 							View live demo
