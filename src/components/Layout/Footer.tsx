@@ -34,19 +34,6 @@ const FOOTER_LINKS: {
 		],
 	},
 	{
-		title: 'Free Tools',
-		links: [
-			{
-				label: 'All tools',
-				href: '/tools',
-			},
-			{
-				label: 'UTM Link Generator',
-				href: '/tools/utm-generator',
-			},
-		],
-	},
-	{
 		title: 'Company',
 		links: [
 			{
@@ -72,6 +59,36 @@ const FOOTER_LINKS: {
 			{
 				label: 'Privacy Policy',
 				href: '/legal/privacy',
+			},
+		],
+	},
+	{
+		title: 'Free Tools',
+		links: [
+			{
+				label: 'All tools',
+				href: '/tools',
+			},
+			{
+				label: 'UTM Link Generator',
+				href: '/tools/utm-generator',
+			},
+		],
+	},
+	{
+		title: 'Industry',
+		links: [
+			{
+				label: 'For startups',
+				href: '/blog',
+			},
+			{
+				label: 'For creators',
+				href: 'https://docs.toolbird.io/',
+			},
+			{
+				label: 'For agencies',
+				href: '/tools',
 			},
 		],
 	},
