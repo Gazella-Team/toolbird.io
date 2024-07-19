@@ -33,8 +33,8 @@ export default function Home() {
 			</SectionIntro>
 			<BlurSection
 					bottomMargin={false}
-					heading="Reasons to become a Toolbird Affiliate"
-					hook="Supercharge Your Earnings"
+					heading="Why Toolbird is the best analytics provider"
+					hook="Supercharge Your Web Analytics"
 				>
 				<div className="grid grid-cols-1 lg:grid-cols-2 paragraph gap-x-32 gap-y-16 w-[90%] mt-12 mx-auto">
 					<div className="flex gap-4">
