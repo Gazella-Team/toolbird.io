@@ -13,7 +13,7 @@ export default function Pricing() {
 				hook="Flexible pricing"
 				highlighted=""
 				heading="Usage based pricing"
-				paragraph="We offer plans that suit any project. Start for free today, no credit card required."
+				paragraph="We offer plans that suit any project. Get started for free in just 2 minutes."
 			>
 			<PricingTable />
 			</CurvePageIntro>
