@@ -15,7 +15,7 @@ export default function Hero03({children}:{children:React.ReactNode}) {
 					</p>
 				</Reveal>
 				<Reveal delayTime={0}>
-					<h1 className="text-[40px] leading-[120%] md:text-[50px] xl:text-6xl xl:leading-[120%] max-w-[1000px] mx-auto font-extrabold text-gray-800">
+					<h1 className="text-[40px] leading-[120%] md:text-[50px] xl:text-6xl xl:leading-[120%] max-w-[1000px] mx-auto font-bold text-gray-800">
 						Easy to use and privacy-friendly Google Analytics alternative
 					</h1>
 				</Reveal>

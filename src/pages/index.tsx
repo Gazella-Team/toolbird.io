@@ -189,7 +189,7 @@ export default function Home() {
 			</BlurSection>
 			<SectionIntro
 				topMargin={true}
-				heading="Unlimited analytics. One super flat fee"
+				heading="Get unlimited analytics for one monthly flat fee"
 				description="Track where your visitors come from, what device they are using and where in the world they are located."
 				hook="Pricing For Everyone"
 			>
@@ -216,7 +216,7 @@ export default function Home() {
 								</div>
 								<div className="px-7 pb-14 bg-white">
 									<h1 className="text-5xl font-extrabold">
-										$10
+										$9
 										<span className="ml-1 text-base paragraph font-[400] text-gray-600">
 											/ month
 										</span>

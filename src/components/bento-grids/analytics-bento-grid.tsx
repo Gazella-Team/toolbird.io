@@ -24,7 +24,7 @@ export default function BentoGridComponent() {
 							image: '/showcases/device.webp',
 							heading: 'Device data',
 							description:
-								'Track what countries, regions and cities your visitors visit you from, to get better insights on your audiences locations.',
+								'Track what browser, operating system and physical device your visitors use to better optimize your page.',
 						}}
 					/>
 					<BentoGridCard
@@ -32,7 +32,7 @@ export default function BentoGridComponent() {
 							image: '/showcases/referrer.webp',
 							heading: 'Refferer data',
 							description:
-								'All data is selectively displayed on a intuitive chart, to ensure as good an overview of your website as possible.',
+								'Get advanced insights on where your online visitors are referred to your page from.',
 						}}
 					/>
 										<BentoGridCard
@@ -40,7 +40,23 @@ export default function BentoGridComponent() {
 							image: '/showcases/page.webp',
 							heading: 'Page data',
 							description:
-								'Track what countries, regions and cities your visitors visit you from, to get better insights on your audiences locations.',
+								'Track exactly what pages your visitors use the most, when they enter, how long they stay, and when they leave.',
+						}}
+					/>
+					<BentoGridCard
+						Obj={{
+							image: '/showcases/filtering.webp',
+							heading: 'Advanced filtering',
+							description:
+								'Get advanced insights on where your online visitors are referred to your page from.',
+						}}
+					/>
+										<BentoGridCard
+						Obj={{
+							image: '/showcases/live-data.webp',
+							heading: 'Live data',
+							description:
+								'Track exactly what pages your visitors use the most, when they enter, how long they stay, and when they leave.',
 						}}
 					/>
 					<BentoGridCard

@@ -39,7 +39,7 @@ export default function BlurSection(props: BlurSectionProps) {
 					<p className="font-[Caveat] text-main text-3xl mb-4">
 						{props.hook}
 					</p>
-					<h1 className="text-[40px] mb-4 md:text-[50px] xl:text-[55px] leading-[110%] max-w-[700px] mx-auto font-black text-gray-800">
+					<h1 className="text-[40px] mb-4 md:text-[50px] xl:text-[55px] leading-[110%] max-w-[700px] mx-auto font-bold text-gray-800">
 						{props.heading}
 					</h1>
 					{props.description && (

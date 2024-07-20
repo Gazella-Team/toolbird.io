@@ -22,7 +22,7 @@ export default function CurvePageIntro(props: CurvePageIntroProps) {
 					</p>
 				</Reveal>
 				<Reveal delayTime={0}>
-					<h1 className="text-[40px] md:text-[50px] xl:text-[55px] leading-[110%] max-w-[600px] mx-auto font-extrabold text-gray-800">
+					<h1 className="text-[40px] md:text-[50px] xl:text-[55px] leading-[110%] max-w-[600px] mx-auto font-bold text-gray-800">
 						{props.heading}{' '}
 						{props.highlighted && (
 							<span className="bg-gradient-to-r from-main via-violet-700 to-main text-transparent bg-clip-text">

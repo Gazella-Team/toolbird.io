@@ -224,7 +224,6 @@ export default function ComparePlausible() {
 			</section>
 			</CurvePageIntro>
 			<BlurSection
-					bottomMargin={true}
 					heading="Toolbird provides the best experience"
 					hook="More than just Analytics"
 				>

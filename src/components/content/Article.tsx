@@ -27,7 +27,7 @@ export function Article({ post }: { post: Post }) {
 						<BlogBadge category={post.category} />
 					</Link>
 				</div>
-				<h1 className="font-extrabold text-gray-800 text-3xl">
+				<h1 className="font-bold text-gray-800 text-3xl">
 					{post.title}
 				</h1>
 				<h2 className="text-gray-600 paragraph">{post.description}</h2>
