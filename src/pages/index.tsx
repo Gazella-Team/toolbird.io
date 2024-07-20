@@ -31,6 +31,15 @@ export default function Home() {
 			>
 				<BentoGridComponent />
 			</SectionIntro>
+			<SectionIntro
+				topMargin={true}
+				heading="People 💜 Toolbird"
+				description="Track where your visitors come from, what device they are using and where in the world they are located."
+				hook="Features Included"
+			>
+				{" "}
+			</SectionIntro>
+			<CustomerSlider />
 			<BlurSection
 					bottomMargin={false}
 					heading="Why Toolbird is the best analytics provider"

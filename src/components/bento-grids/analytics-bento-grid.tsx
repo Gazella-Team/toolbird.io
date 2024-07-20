@@ -21,7 +21,7 @@ export default function BentoGridComponent() {
 					/>
 					<BentoGridCard
 						Obj={{
-							image: '/showcases/map.webp',
+							image: '/showcases/device.webp',
 							heading: 'Device data',
 							description:
 								'Track what countries, regions and cities your visitors visit you from, to get better insights on your audiences locations.',
@@ -29,7 +29,7 @@ export default function BentoGridComponent() {
 					/>
 					<BentoGridCard
 						Obj={{
-							image: '/showcases/chart.webp',
+							image: '/showcases/referrer.webp',
 							heading: 'Refferer data',
 							description:
 								'All data is selectively displayed on a intuitive chart, to ensure as good an overview of your website as possible.',
@@ -37,7 +37,7 @@ export default function BentoGridComponent() {
 					/>
 										<BentoGridCard
 						Obj={{
-							image: '/showcases/map.webp',
+							image: '/showcases/page.webp',
 							heading: 'Page data',
 							description:
 								'Track what countries, regions and cities your visitors visit you from, to get better insights on your audiences locations.',
