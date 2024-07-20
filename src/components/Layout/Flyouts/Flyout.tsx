@@ -50,7 +50,7 @@ export default function Flyout() {
 				leaveTo="opacity-0 translate-y-1"
 			>
 				<Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
-					<div className="w-screen max-w-sm flex overflow-hidden rounded-xl bg-white text-sm leading-6 shadow-clean ring-1 ring-gray-600/10">
+					<div className="w-screen max-w-2xl flex overflow-hidden rounded-xl bg-white text-sm leading-6 shadow-clean ring-1 ring-gray-600/10">
 						<div className="p-4 grid grid-cols-1 gap-4 w-full">
 							{solutions.map((item) => (
 								<Link
@@ -73,6 +73,50 @@ export default function Flyout() {
 									</div>
 								</Link>
 							))}
+						</div>
+						<div style={{ background: 'linear-gradient(329deg, rgba(244,244,244,1) 0%, rgba(250,248,255,1) 17%, rgba(247,247,247,1) 37%, rgba(253,252,255,1) 67%, rgba(252,251,255,1) 94%)', }} className="p-4 grid border-l border-gray-600/10 grid-cols-1 gap-4 w-full">
+							<div className='p-2'>
+								<h1 className='text-gray-800'>INDUSTRY</h1>
+								<div>
+									<Link
+										href={"/for-agencies"}
+										className="group relative rounded-xl w-full p-2 py-0 hover:bg-slate-50"
+									>
+											<div>
+												<h2 className='text-gray-600 font-normal'>For agencies</h2>
+											</div>
+									</Link>
+									<Link
+										href={"/for-agencies"}
+										className="group relative rounded-xl w-full p-2 py-0 hover:bg-slate-50"
+									>
+											<div>
+												<h2 className='text-gray-600 font-normal'>For startups</h2>
+											</div>
+									</Link>
+									<Link
+										href={"/for-agencies"}
+										className="group relative rounded-xl w-full p-2 py-0 hover:bg-slate-50"
+									>
+											<div>
+												<h2 className='text-gray-600 font-normal'>For creators</h2>
+											</div>
+									</Link>
+								</div>
+							</div>
+							<div className='p-2'>
+								<h1 className='text-gray-800'>COMPARE</h1>
+								<div>
+									<Link
+										href={"/for-agencies"}
+										className="group relative rounded-xl w-full p-2 hover:bg-slate-50"
+									>
+											<div>
+												<h2 className='text-gray-600 font-normal'>Plausible</h2>
+											</div>
+									</Link>
+								</div>
+							</div>
 						</div>
 					</div>
 				</Popover.Panel>

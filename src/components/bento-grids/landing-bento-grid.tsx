@@ -27,6 +27,22 @@ export default function BentoGridComponent() {
 								'Toolbird allows you to manage tools and workspaces alone and in teams, depending on your needs.',
 						}}
 					/>
+										<BentoGridCard
+						Obj={{
+							image: '/showcases/toolbar.webp',
+							heading: 'One toolbar for all tools',
+							description:
+								'Quit having mulitple subscriptions for each tool. Our all-in-one solution allows you to save time and money.',
+						}}
+					/>
+					<BentoGridCard
+						Obj={{
+							image: '/showcases/team.webp',
+							heading: 'Collaborate with your team',
+							description:
+								'Toolbird allows you to manage tools and workspaces alone and in teams, depending on your needs.',
+						}}
+					/>
 				</div>
 				<div className="hidden lg:block">
 					<BentoGridLong
