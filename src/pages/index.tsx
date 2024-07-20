@@ -60,7 +60,7 @@ export default function Home() {
 						</div>
 						<div className="flex flex-col gap-2">
 							<h2 className="font-semibold text-xl text-gray-800">
-								High Commission Structure
+								Privacy Focused
 							</h2>
 							<p className="text-gray-600">
 							For every paid customer you refer, you earn one of the best percentages in the industry of the sale.
@@ -77,7 +77,7 @@ export default function Home() {
 						</div>
 						<div className="flex flex-col gap-2">
 							<h2 className="font-semibold text-xl text-gray-800">
-								Reliable Monthly Payouts
+								Fast and Intuitive
 							</h2>
 							<p className="text-gray-600">
 								We offer reliable monthly payouts through PayPal and Wire to ensure timely payments.					
@@ -94,7 +94,7 @@ export default function Home() {
 						</div>
 						<div className="flex flex-col gap-2">
 							<h2 className="font-semibold text-xl text-gray-800">
-								Ready-to-use resources
+								Lightweight Script
 							</h2>
 							<p className="text-gray-600">
 								Our program comes with ready-to-use templates and scripts to get you started the best way possbile.					
@@ -111,7 +111,7 @@ export default function Home() {
 						</div>
 						<div className="flex flex-col gap-2">
 							<h2 className="font-semibold text-xl text-gray-800">
-								User-friendly dashboard
+								1 minute setup
 							</h2>
 							<p className="text-gray-600">
 								Track your clicks, conversions, and commissions with ease thorugh our intuitive dashboard.						
@@ -128,7 +128,7 @@ export default function Home() {
 						</div>
 						<div className="flex flex-col gap-2">
 							<h2 className="font-semibold text-xl text-gray-800">
-								Lifetime income
+								100% Data Ownership
 							</h2>
 							<p className="text-gray-600">
 								Our commisions are lifetime recurring, meaning your earnings stay with you monthly and forever.
@@ -145,7 +145,7 @@ export default function Home() {
 						</div>
 						<div className="flex flex-col gap-2">
 							<h2 className="font-semibold text-xl text-gray-800">
-								Affiliate community
+								Flat Monthly Fee
 							</h2>
 							<p className="text-gray-600">
 								Get access to an affiliate community providing instant help and resources to any question.
@@ -162,7 +162,7 @@ export default function Home() {
 						</div>
 						<div className="flex flex-col gap-2">
 							<h2 className="font-semibold text-xl text-gray-800">
-								Dedicated support
+								Dedicated Support
 							</h2>
 							<p className="text-gray-600">
 							Our team will help you through every step. They&apos;ll help you understand the product to promote it well.							</p>
@@ -178,7 +178,7 @@ export default function Home() {
 						</div>
 						<div className="flex flex-col gap-2">
 							<h2 className="font-semibold text-xl text-gray-800">
-								Referral visibility
+								Advanced Analytics
 							</h2>
 							<p className="text-gray-600">
 							Get real-time status of your referrals in your dashboard. We use a cookie life of 60 days.							

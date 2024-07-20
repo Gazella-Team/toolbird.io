@@ -45,7 +45,7 @@ export default function BentoGridComponent() {
 					/>
 					<BentoGridCard
 						Obj={{
-							image: '/showcases/chart.webp',
+							image: '/showcases/custom-tracking.webp',
 							heading: 'Custom event tracking',
 							description:
 								'All data is selectively displayed on a intuitive chart, to ensure as good an overview of your website as possible.',

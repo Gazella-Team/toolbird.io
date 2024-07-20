@@ -9,7 +9,7 @@ export default function PrivacyFocused() {
 	return (
 		<Layout whiteBeforeScroll={true} white={true}>
 			<Meta title={`Pricing - Toolbird.io`} />
-            <section style={{background: "linear-gradient(90deg, rgba(255,255,255,0.686734068627451) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0.6895351890756303) 100%)"}} className='py-24'>
+            <section style={{background: "linear-gradient(0deg, rgba(255,255,255,0.7105435924369747) 0%, rgba(255,255,255,0.8898153011204482) 12%, rgba(255,255,255,0.9514399509803921) 22%, rgba(255,255,255,1) 100%)"}} className='py-24'>
                 <div className='w-[86%] text-gray-800 flex flex-col gap-10 paragraph mx-auto max-w-xl'>
                     <h2 className='text-4xl font-semibold'>Privacy-focused web analytics being GDPR compliant</h2>
                     <div>

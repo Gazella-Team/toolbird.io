@@ -11,32 +11,46 @@ const testimonialData = [
 		position: 'Founder, Upboost.ai',
 	},
 	{
-		name: 'Viktor Lasse',
+		name: 'Viktor Lassen',
 		testimonial:
 			'Dub.co has been a game-changer for our marketing campaigns, our links get hundreds of thousands of clicks monthly and with Dub, we are able.',
 		image: '/users/user-headshots/andreas-pedersen.webp',
 		position: 'Founder, MatematikTutor',
 	},
 	{
-		name: 'Andreas Pedersen',
+		name: 'Mathias Streander',
 		testimonial:
 			'Dub.co has been a game-changer for our marketing campaigns, our links get hundreds of thousands of clicks monthly and with Dub, we are able.',
 		image: '/users/user-headshots/andreas-pedersen.webp',
-		position: 'Founder, Upboost.ai',
+		position: 'Founder, Luxvps',
 	},
 	{
-		name: 'Viktor Lasse',
+		name: 'Noah Lloyd',
 		testimonial:
 			'Dub.co has been a game-changer for our marketing campaigns, our links get hundreds of thousands of clicks monthly and with Dub, we are able.',
 		image: '/users/user-headshots/andreas-pedersen.webp',
-		position: 'Founder, MatematikTutor',
+		position: 'AI Engineer, Share Ventures',
 	},
 	{
-		name: 'Viktor Lasse',
+		name: 'Sander Bastrup',
 		testimonial:
 			'Dub.co has been a game-changer for our marketing campaigns, our links get hundreds of thousands of clicks monthly and with Dub, we are able.',
 		image: '/users/user-headshots/andreas-pedersen.webp',
-		position: 'Founder, MatematikTutor',
+		position: 'Founder, ChallChamp',
+	},
+	{
+		name: 'Louis Carter',
+		testimonial:
+			'Dub.co has been a game-changer for our marketing campaigns, our links get hundreds of thousands of clicks monthly and with Dub, we are able.',
+		image: '/users/user-headshots/andreas-pedersen.webp',
+		position: 'Founder, Burst Creators',
+	},
+	{
+		name: 'Benjamin Madsen',
+		testimonial:
+			'Dub.co has been a game-changer for our marketing campaigns, our links get hundreds of thousands of clicks monthly and with Dub, we are able.',
+		image: '/users/user-headshots/andreas-pedersen.webp',
+		position: 'Founder, Vatemedia',
 	},
 ]
 
@@ -46,7 +60,7 @@ export default function CustomerSlider() {
 			<div className="flex items-center">
 				<Slider
 					width="440px"
-					duration={30}
+					duration={50}
 					pauseOnHover={false}
 					blurBorders={true}
 					blurBoderColor={'#fffff'}

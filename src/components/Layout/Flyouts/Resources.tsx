@@ -9,25 +9,25 @@ const solutions = [
 	{
 		name: 'Blog',
 		description: 'Privacy-first web analytics of your visitors',
-		href: '/analytics',
+		href: '/blog',
 		icon: <BookCopy className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
 		name: 'Docs',
 		description: 'Privacy-first web analytics of your visitors',
-		href: '/analytics',
+		href: 'https://docs.toolbird.io/',
 		icon: <Album className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
 		name: 'Extra tools',
 		description: 'Privacy-first web analytics of your visitors',
-		href: '/analytics',
+		href: '/tools',
 		icon: <Plus className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
 		name: 'Glossary',
 		description: 'Privacy-first web analytics of your visitors',
-		href: '/analytics',
+		href: '/glossary',
 		icon: <CaseLower className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 ]
