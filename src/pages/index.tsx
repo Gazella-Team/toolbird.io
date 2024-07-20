@@ -38,8 +38,8 @@ export default function Home() {
 			<SectionIntro
 				topMargin={true}
 				heading="People 💜 Toolbird"
-				description="Track where your visitors come from, what device they are using and where in the world they are located."
-				hook="Features Included"
+				description="Read why people from various industries prefer using Toolbird for web analytics."
+				hook="Wall Of Love"
 			>
 				{" "}
 			</SectionIntro>
