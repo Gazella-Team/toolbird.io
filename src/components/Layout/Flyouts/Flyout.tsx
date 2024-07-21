@@ -51,7 +51,7 @@ export default function Flyout() {
 			>
 				<Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
 					<div className="w-screen max-w-md flex flex-col overflow-hidden rounded-xl bg-white text-sm leading-6 shadow-clean ring-1 ring-gray-600/10">
-						<div className="p-4 grid grid-cols-1 gap-4 w-full">
+						<div className="p-4 grid grid-cols-1 gap-3 w-full">
 							{solutions.map((item) => (
 								<Link
 									href={item.href}
