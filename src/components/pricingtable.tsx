@@ -29,7 +29,7 @@ export default function PricingTable() {
 							</p>
 						</div>
 						<div className="px-7 pb-14 bg-white">
-							<h1 className="text-5xl font-extrabold">
+							<h1 className="text-5xl font-bold">
 								$9
 								<span className="ml-1 text-base paragraph font-[400] text-gray-600">
 									/ month
@@ -131,7 +131,7 @@ export default function PricingTable() {
 						</p>
 					</div>
 					<div className="px-7 pb-14">
-						<h1 className="text-5xl font-extrabold">
+						<h1 className="text-5xl font-bold">
 							Let&apos;s talk
 						</h1>
 					</div>

@@ -11,7 +11,7 @@ export default function Hero03({children}:{children:React.ReactNode}) {
 			<div className="w-[86%] mx-auto max-w-6xl flex flex-col text-center gap-4">
 				<Reveal delayTime={0}>
 					<p className="font-[Caveat] text-main mb-4 text-3xl">
-						The all-in-one toolbox
+						Introducing Toolbird Analytics:
 					</p>
 				</Reveal>
 				<Reveal delayTime={0}>

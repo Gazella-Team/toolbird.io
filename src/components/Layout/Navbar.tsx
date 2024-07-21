@@ -28,9 +28,9 @@ export default function Navbar(props:NavbarProps) {
 			<div className="bg-white border-b border-gray-600/10 hidden text-gray-600 lg:flex items-center justify-center h-10 text-sm paragraph">
 				<RefLink
 					className="underline"
-					href={'https://app.toolbird.io/auth/register'}
+					href={'/affiliate'}
 				>
-					Start your 14-day free trial today 🎉
+					Start earning money as a Toolbird Affiliate 🎉
 				</RefLink>
 			</div>
 			<div

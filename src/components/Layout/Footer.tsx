@@ -138,9 +138,7 @@ const FOOTER_LINKS: {
 export default function Footer(props: FooterProps) {
 	return (
 		<>
-			{/*
 			{!props.noCta && <Cta />}
-			 */}
 			<footer
 				style={{
 					background:

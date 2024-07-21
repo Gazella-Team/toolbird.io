@@ -114,7 +114,7 @@ export default function Home() {
 								1 minute setup
 							</h2>
 							<p className="text-gray-600">
-								Track your clicks, conversions, and commissions with ease thorugh our intuitive dashboard.						
+								No advanced onboardings. With Toolbird you can start collecting data within minutes.					
 							</p>
 						</div>
 					</div>
@@ -131,7 +131,7 @@ export default function Home() {
 								100% Data Ownership
 							</h2>
 							<p className="text-gray-600">
-								Our commisions are lifetime recurring, meaning your earnings stay with you monthly and forever.
+								When using Toolbird you own all of your data. We won&apos;t use or sell your data to third-parties.
 							</p>
 						</div>
 					</div>
@@ -190,7 +190,7 @@ export default function Home() {
 			<SectionIntro
 				topMargin={true}
 				heading="Get unlimited analytics for one monthly flat fee"
-				description="Track where your visitors come from, what device they are using and where in the world they are located."
+				description=""
 				hook="Pricing For Everyone"
 			>
 				<section className="mb-24 mt-6">
@@ -215,7 +215,7 @@ export default function Home() {
 									</p>
 								</div>
 								<div className="px-7 pb-14 bg-white">
-									<h1 className="text-5xl font-extrabold">
+									<h1 className="text-5xl font-bold">
 										$9
 										<span className="ml-1 text-base paragraph font-[400] text-gray-600">
 											/ month
@@ -317,7 +317,7 @@ export default function Home() {
 								</p>
 							</div>
 							<div className="px-7 pb-14">
-								<h1 className="text-5xl font-extrabold">
+								<h1 className="text-5xl font-bold">
 									Let&apos;s talk
 								</h1>
 							</div>
