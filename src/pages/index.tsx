@@ -63,7 +63,7 @@ export default function Home() {
 								Privacy Focused
 							</h2>
 							<p className="text-gray-600">
-							For every paid customer you refer, you earn one of the best percentages in the industry of the sale.
+							We have your visitors in mind. All Toolbird Analytics is compliant with GDPR, CCPA and PECR.
 							</p>
 						</div>
 					</div>
@@ -80,7 +80,7 @@ export default function Home() {
 								Fast and Intuitive
 							</h2>
 							<p className="text-gray-600">
-								We offer reliable monthly payouts through PayPal and Wire to ensure timely payments.					
+								Our intuitive dashboard allows your to get the entire overview of your analytics at one glance.		
 							</p>
 						</div>
 					</div>
@@ -97,7 +97,7 @@ export default function Home() {
 								Lightweight Script
 							</h2>
 							<p className="text-gray-600">
-								Our program comes with ready-to-use templates and scripts to get you started the best way possbile.					
+								Many analytics scripts slow down your page. Toolbird is made as light as possible, to ensure web-speed.			
 							</p>
 						</div>
 					</div>
@@ -148,7 +148,7 @@ export default function Home() {
 								Flat Monthly Fee
 							</h2>
 							<p className="text-gray-600">
-								Get access to an affiliate community providing instant help and resources to any question.
+								No billing surprises. With Toolbird you get unlimited analytics for as little as $9/month.
 							</p>
 						</div>
 					</div>
@@ -165,7 +165,8 @@ export default function Home() {
 								Dedicated Support
 							</h2>
 							<p className="text-gray-600">
-							Our team will help you through every step. They&apos;ll help you understand the product to promote it well.							</p>
+								Our dedicated team provides 24/7 live support to any question or trouble you may encounter.						
+							</p>
 						</div>
 					</div>
 					<div className="flex gap-4">
@@ -181,7 +182,7 @@ export default function Home() {
 								Advanced Analytics
 							</h2>
 							<p className="text-gray-600">
-							Get real-time status of your referrals in your dashboard. We use a cookie life of 60 days.							
+								Toolbird matches beyond the standards of the latest technology within the web analytics industry.					
 							</p>
 						</div>
 					</div>

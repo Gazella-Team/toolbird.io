@@ -48,7 +48,7 @@ export default function BentoGridComponent() {
 							image: '/showcases/filtering.webp',
 							heading: 'Advanced filtering',
 							description:
-								'Get advanced insights on where your online visitors are referred to your page from.',
+								'Filter the displayed data by time, locations, devices, pages, sources and more, to gain precise insights.',
 						}}
 					/>
 										<BentoGridCard
@@ -56,7 +56,7 @@ export default function BentoGridComponent() {
 							image: '/showcases/live-data.webp',
 							heading: 'Live data',
 							description:
-								'Track exactly what pages your visitors use the most, when they enter, how long they stay, and when they leave.',
+								'Track the exact number of visitors being live on your page with our intuitive real-time dashboard.',
 						}}
 					/>
 					<BentoGridCard
@@ -64,7 +64,7 @@ export default function BentoGridComponent() {
 							image: '/showcases/custom-tracking.webp',
 							heading: 'Custom event tracking',
 							description:
-								'All data is selectively displayed on a intuitive chart, to ensure as good an overview of your website as possible.',
+								'Get analytics on custom events of your choice. Track how specific elements on your website perform.',
 						}}
 					/>
 										<BentoGridCard
