@@ -8,6 +8,9 @@ export default function PricingTable() {
 	const [pricingRuntime, setPricingRuntime] = useState('yearly')
 	return (
 		<section className="mb-24 mt-6">
+			<div className="mx-auto paragraph flex items-center justify-between max-w-6xl bg-white rounded-3xl border p-10 border-gray-600/10 shadow-clean mb-6">
+				<p className='text-gray-600'>Up to <span className='font-medium text-gray-800'>10k</span> monthly pageviews</p>
+			</div>
 			<div className="grid grid-cols-1 lg:grid-cols-2 mx-auto max-w-6xl w-[86%] gap-14 lg:gap-6">
 				<div
 					style={{
