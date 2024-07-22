@@ -46,8 +46,8 @@ export default function Home() {
 				{" "}
 			</SectionIntro>
 			<CustomerSlider />
-			<CustomTracking />
 			<LightweightScript />
+			<CustomTracking />
 			<BlurSection
 					bottomMargin={false}
 					heading="Why Toolbird is the best analytics provider"
