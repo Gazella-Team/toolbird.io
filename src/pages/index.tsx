@@ -8,6 +8,8 @@ import AnalyticsFeatureBox from '@/components/feature-boxes/analytics-feature-bo
 import Hero from '@/components/hero'
 import Hero02 from '@/components/hero-02'
 import Hero03 from '@/components/hero-03'
+import CustomTracking from '@/components/info-sections/custom-tracking'
+import LightweightScript from '@/components/info-sections/lightweight-script'
 import Mission from '@/components/mission'
 import PricingTable from '@/components/pricingtable'
 import Tooltip from '@/components/ui/Tooltip'
@@ -44,6 +46,8 @@ export default function Home() {
 				{" "}
 			</SectionIntro>
 			<CustomerSlider />
+			<CustomTracking />
+			<LightweightScript />
 			<BlurSection
 					bottomMargin={false}
 					heading="Why Toolbird is the best analytics provider"

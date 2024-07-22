@@ -2,7 +2,7 @@ import { Reveal } from '../Animations/Reveal'
 
 export default function BentoGridComponent() {
 	return (
-		<section>
+		<section className='mx-auto max-w-xl lg:max-w-none'>
 			<div
 				style={{
 					background:
@@ -10,71 +10,81 @@ export default function BentoGridComponent() {
 				}}
 				className="flex flex-col gap-5"
 			>
-				<div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
-					<BentoGridCard
-						Obj={{
-							image: '/showcases/map.webp',
-							heading: 'Geographic Data',
-							description:
-								'Track what countries, regions and cities your visitors visit you from, to get better insights on your audiences locations.',
-						}}
-					/>
-					<BentoGridCard
-						Obj={{
-							image: '/showcases/device.webp',
-							heading: 'Device data',
-							description:
-								'Track what browser, operating system and physical device your visitors use to better optimize your page.',
-						}}
-					/>
-					<BentoGridCard
-						Obj={{
-							image: '/showcases/referrer.webp',
-							heading: 'Refferer data',
-							description:
-								'Get advanced insights on where your online visitors are referred to your page from.',
-						}}
-					/>
-										<BentoGridCard
-						Obj={{
-							image: '/showcases/page.webp',
-							heading: 'Page data',
-							description:
-								'Track exactly what pages your visitors use the most, when they enter, how long they stay, and when they leave.',
-						}}
-					/>
-					<BentoGridCard
-						Obj={{
-							image: '/showcases/filtering.webp',
-							heading: 'Advanced filtering',
-							description:
-								'Filter the displayed data by time, locations, devices, pages, sources and more, to gain precise insights.',
-						}}
-					/>
-										<BentoGridCard
-						Obj={{
-							image: '/showcases/live-data.webp',
-							heading: 'Live data',
-							description:
-								'Track the exact number of visitors being live on your page with our intuitive real-time dashboard.',
-						}}
-					/>
-					<BentoGridCard
-						Obj={{
-							image: '/showcases/custom-tracking.webp',
-							heading: 'Custom event tracking',
-							description:
-								'Get analytics on custom events of your choice. Track how specific elements on your website perform.',
-						}}
-					/>
-										<BentoGridCard
-						Obj={{
-							image: '/showcases/chart.webp',
-							heading: 'Data visualization',
-							description:
-								'All data is selectively displayed on a intuitive chart, to ensure as good an overview of your website as possible.',
-						}}
-					/>
+				<div className="flex flex-col gap-5">
+					<div className='grid grid-cols-1 gap-5 lg:grid-cols-[60%_1fr]'>
+						<BentoGridCard
+							Obj={{
+								image: '/showcases/map.webp',
+								heading: 'Geographic Data',
+								description:
+									'Track what countries, regions and cities your visitors visit you from, to get better insights on your audiences locations.',
+							}}
+						/>
+						<BentoGridCard
+							Obj={{
+								image: '/showcases/live-data.webp',
+								heading: 'Live data',
+								description:
+									'Track the exact number of visitors being live on your page with our intuitive real-time dashboard.',
+							}}
+						/>	
+					</div>
+					<div className='grid grid-cols-1 gap-5 lg:grid-cols-[1fr_60%]'>
+						<BentoGridCard
+							Obj={{
+								image: '/showcases/referrer.webp',
+								heading: 'Refferer data',
+								description:
+									'Get advanced insights on where your online visitors are referred to your page from.',
+							}}
+						/>
+											<BentoGridCard
+							Obj={{
+								image: '/showcases/page.webp',
+								heading: 'Page data',
+								description:
+									'Track exactly what pages your visitors use the most, when they enter, how long they stay, and when they leave.',
+							}}
+						/>
+					</div>
+					<div className='grid grid-cols-1 gap-5 lg:grid-cols-[60%_1fr]'>
+						<BentoGridCard
+							Obj={{
+								image: '/showcases/device.webp',
+								heading: 'Device data',
+								description:
+									'Track what browser, operating system and physical device your visitors use to better optimize your page.',
+							}}
+						/>
+						<BentoGridCard
+							Obj={{
+								image: '/showcases/filtering.webp',
+								heading: 'Advanced filtering',
+								description:
+									'Filter the displayed data by time, locations, devices, pages, sources and more, to gain precise insights.',
+							}}
+						/>
+					</div>
+					{/*
+					<div className='grid grid-cols-1 gap-5 md:grid-cols-[60%_1fr]'>
+						<BentoGridCard
+							Obj={{
+								image: '/showcases/custom-tracking.webp',
+								heading: 'Custom event tracking',
+								description:
+									'Get analytics on custom events of your choice. Track how specific elements on your website perform.',
+							}}
+						/>
+											<BentoGridCard
+							Obj={{
+								image: '/showcases/chart.webp',
+								heading: 'Data visualization',
+								description:
+									'All data is selectively displayed on a intuitive chart, to ensure as good an overview of your website as possible.',
+							}}
+						/>
+					</div>
+					 */}
 				</div>
 			</div>
 		</section>
