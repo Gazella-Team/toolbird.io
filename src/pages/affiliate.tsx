@@ -31,10 +31,10 @@ export default function Affiliate() {
 			/>
 			<AffiliateProcess />
 			<BlurSection
-					bottomMargin={true}
-					heading="Reasons to become a Toolbird Affiliate"
-					hook="Supercharge Your Earnings"
-				>
+				bottomMargin={true}
+				heading="Reasons to become a Toolbird Affiliate"
+				hook="Supercharge Your Earnings"
+			>
 				<div className="grid grid-cols-1 lg:grid-cols-2 paragraph gap-x-32 gap-y-16 w-[90%] mt-12 mx-auto">
 					<div className="flex gap-4">
 						<div className="w-10">
@@ -49,7 +49,9 @@ export default function Affiliate() {
 								High Commission Structure
 							</h2>
 							<p className="text-gray-600">
-							For every paid customer you refer, you earn one of the best percentages in the industry of the sale.
+								For every paid customer you refer, you earn one
+								of the best percentages in the industry of the
+								sale.
 							</p>
 						</div>
 					</div>
@@ -66,7 +68,8 @@ export default function Affiliate() {
 								Reliable Monthly Payouts
 							</h2>
 							<p className="text-gray-600">
-								We offer reliable monthly payouts through PayPal and Wire to ensure timely payments.					
+								We offer reliable monthly payouts through PayPal
+								and Wire to ensure timely payments.
 							</p>
 						</div>
 					</div>
@@ -83,7 +86,9 @@ export default function Affiliate() {
 								Ready-to-use resources
 							</h2>
 							<p className="text-gray-600">
-								Our program comes with ready-to-use templates and scripts to get you started the best way possbile.					
+								Our program comes with ready-to-use templates
+								and scripts to get you started the best way
+								possbile.
 							</p>
 						</div>
 					</div>
@@ -100,7 +105,8 @@ export default function Affiliate() {
 								User-friendly dashboard
 							</h2>
 							<p className="text-gray-600">
-								Track your clicks, conversions, and commissions with ease thorugh our intuitive dashboard.						
+								Track your clicks, conversions, and commissions
+								with ease thorugh our intuitive dashboard.
 							</p>
 						</div>
 					</div>
@@ -117,7 +123,8 @@ export default function Affiliate() {
 								Lifetime income
 							</h2>
 							<p className="text-gray-600">
-								Our commisions are lifetime recurring, meaning your earnings stay with you monthly and forever.
+								Our commisions are lifetime recurring, meaning
+								your earnings stay with you monthly and forever.
 							</p>
 						</div>
 					</div>
@@ -134,7 +141,8 @@ export default function Affiliate() {
 								Affiliate community
 							</h2>
 							<p className="text-gray-600">
-								Get access to an affiliate community providing instant help and resources to any question.
+								Get access to an affiliate community providing
+								instant help and resources to any question.
 							</p>
 						</div>
 					</div>
@@ -151,7 +159,10 @@ export default function Affiliate() {
 								Dedicated support
 							</h2>
 							<p className="text-gray-600">
-							Our team will help you through every step. They&apos;ll help you understand the product to promote it well.							</p>
+								Our team will help you through every step.
+								They&apos;ll help you understand the product to
+								promote it well.{' '}
+							</p>
 						</div>
 					</div>
 					<div className="flex gap-4">
@@ -167,7 +178,8 @@ export default function Affiliate() {
 								Referral visibility
 							</h2>
 							<p className="text-gray-600">
-							Get real-time status of your referrals in your dashboard. We use a cookie life of 60 days.							
+								Get real-time status of your referrals in your
+								dashboard. We use a cookie life of 60 days.
 							</p>
 						</div>
 					</div>

@@ -3,7 +3,16 @@ import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { ChartBarIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
-import { Album, BookCopy, CaseLower, MessageSquare, MessagesSquare, PenTool, PieChart, Plus } from 'lucide-react'
+import {
+	Album,
+	BookCopy,
+	CaseLower,
+	MessageSquare,
+	MessagesSquare,
+	PenTool,
+	PieChart,
+	Plus,
+} from 'lucide-react'
 
 const solutions = [
 	{
@@ -58,8 +67,8 @@ export default function Flyout() {
 									key={item.name}
 									className="group relative rounded-xl w-full p-2 hover:bg-slate-50"
 								>
-									<div className='flex items-center gap-3'>
-										<div className='flex'>
+									<div className="flex items-center gap-3">
+										<div className="flex">
 											<div className="font-semibold shadow-sm bg-white p-3 border rounded-xl paragraph flex items-center gap-2 text-gray-800">
 												{item.icon}
 											</div>

@@ -159,7 +159,8 @@ export default function Footer(props: FooterProps) {
 								alt="Toolbird Logo"
 							/>
 							<p className="text-gray-500 paragraph text-sm max-w-xs font-regular">
-								The best, fastest, most easy to use and privacy-friendly Google Analytics alternative.
+								The best, fastest, most easy to use and
+								privacy-friendly Google Analytics alternative.
 							</p>
 						</div>
 						<div className="flex">

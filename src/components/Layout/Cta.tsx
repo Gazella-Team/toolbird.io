@@ -22,7 +22,8 @@ export default function Cta() {
 						today
 					</h2>
 					<p className="text-base md:text-lg xl:text-lg paragraph max-w-[350px] mx-auto text-gray-600">
-						Increase your website overview today. Get started in just a few minutes.
+						Increase your website overview today. Get started in
+						just a few minutes.
 					</p>
 					<div className="flex items-center paragraph relative justify-center gap-3 mt-8 font-medium">
 						<Link

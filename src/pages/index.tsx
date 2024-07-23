@@ -21,12 +21,12 @@ import { FaCheckCircle } from 'react-icons/fa'
 export default function Home() {
 	return (
 		<Layout whiteBeforeScroll={true} white={true}>
-			<div className='hidden lg:block'>
+			<div className="hidden lg:block">
 				<Hero03>
 					<HeroDashboard />
 				</Hero03>
 			</div>
-			<div className='block lg:hidden'>
+			<div className="block lg:hidden">
 				<Hero />
 				<HeroDashboard />
 			</div>
@@ -52,16 +52,16 @@ export default function Home() {
 				description="Read why people from various industries prefer using Toolbird for web analytics."
 				hook="Wall Of Love"
 			>
-				{" "}
+				{' '}
 			</SectionIntro>
 			<CustomerSlider />
 			<LightweightScript />
 			<CustomTracking />
 			<BlurSection
-					bottomMargin={false}
-					heading="Why Toolbird is the best analytics provider"
-					hook="Supercharge Your Web Analytics"
-				>
+				bottomMargin={false}
+				heading="Why Toolbird is the best analytics provider"
+				hook="Supercharge Your Web Analytics"
+			>
 				<div className="grid grid-cols-1 lg:grid-cols-2 paragraph gap-x-32 gap-y-16 w-[90%] mt-12 mx-auto">
 					<div className="flex gap-4">
 						<div className="w-10">
@@ -76,7 +76,8 @@ export default function Home() {
 								Privacy Focused
 							</h2>
 							<p className="text-gray-600">
-							We have your visitors in mind. All Toolbird Analytics is compliant with GDPR, CCPA and PECR.
+								We have your visitors in mind. All Toolbird
+								Analytics is compliant with GDPR, CCPA and PECR.
 							</p>
 						</div>
 					</div>
@@ -93,7 +94,8 @@ export default function Home() {
 								Fast and Intuitive
 							</h2>
 							<p className="text-gray-600">
-								Our intuitive dashboard allows your to get the entire overview of your analytics at one glance.		
+								Our intuitive dashboard allows your to get the
+								entire overview of your analytics at one glance.
 							</p>
 						</div>
 					</div>
@@ -110,7 +112,9 @@ export default function Home() {
 								Lightweight Script
 							</h2>
 							<p className="text-gray-600">
-								Many analytics scripts slow down your page. Toolbird is made as light as possible, to ensure web-speed.			
+								Many analytics scripts slow down your page.
+								Toolbird is made as light as possible, to ensure
+								web-speed.
 							</p>
 						</div>
 					</div>
@@ -127,7 +131,8 @@ export default function Home() {
 								1 minute setup
 							</h2>
 							<p className="text-gray-600">
-								No advanced onboardings. With Toolbird you can start collecting data within minutes.					
+								No advanced onboardings. With Toolbird you can
+								start collecting data within minutes.
 							</p>
 						</div>
 					</div>
@@ -144,7 +149,9 @@ export default function Home() {
 								100% Data Ownership
 							</h2>
 							<p className="text-gray-600">
-								When using Toolbird you own all of your data. We won&apos;t use or sell your data to third-parties.
+								When using Toolbird you own all of your data. We
+								won&apos;t use or sell your data to
+								third-parties.
 							</p>
 						</div>
 					</div>
@@ -161,7 +168,8 @@ export default function Home() {
 								Flat Monthly Fee
 							</h2>
 							<p className="text-gray-600">
-								No billing surprises. With Toolbird you get unlimited analytics for as little as $9/month.
+								No billing surprises. With Toolbird you get
+								unlimited analytics for as little as $9/month.
 							</p>
 						</div>
 					</div>
@@ -178,7 +186,8 @@ export default function Home() {
 								Dedicated Support
 							</h2>
 							<p className="text-gray-600">
-								Our dedicated team provides 24/7 live support to any question or trouble you may encounter.						
+								Our dedicated team provides 24/7 live support to
+								any question or trouble you may encounter.
 							</p>
 						</div>
 					</div>
@@ -195,7 +204,9 @@ export default function Home() {
 								Advanced Analytics
 							</h2>
 							<p className="text-gray-600">
-								Toolbird matches beyond the standards of the latest technology within the web analytics industry.					
+								Toolbird matches beyond the standards of the
+								latest technology within the web analytics
+								industry.
 							</p>
 						</div>
 					</div>
@@ -356,7 +367,9 @@ export default function Home() {
 											size={18}
 											className="text-gray-800"
 										/>
-										<h2 className="text-gray-800">Custom seats</h2>
+										<h2 className="text-gray-800">
+											Custom seats
+										</h2>
 									</div>
 									<div className="flex items-center gap-4">
 										<FaCheckCircle

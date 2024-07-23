@@ -15,7 +15,7 @@ export default function Pricing() {
 				heading="Pricing for everyone"
 				paragraph="We offer plans that suit any project. Get started in just 1 minute."
 			>
-			<PricingTable />
+				<PricingTable />
 			</CurvePageIntro>
 			{
 				<BlurSection

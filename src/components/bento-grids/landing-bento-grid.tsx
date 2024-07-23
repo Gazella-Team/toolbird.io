@@ -2,7 +2,7 @@ import { Reveal } from '../Animations/Reveal'
 
 export default function BentoGridComponent() {
 	return (
-		<section className='mx-auto max-w-xl lg:max-w-none'>
+		<section className="mx-auto max-w-xl lg:max-w-none">
 			<div
 				style={{
 					background:
@@ -11,7 +11,7 @@ export default function BentoGridComponent() {
 				className="flex flex-col gap-5"
 			>
 				<div className="flex flex-col gap-5">
-					<div className='grid grid-cols-1 gap-5 lg:grid-cols-2'>
+					<div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
 						<BentoGridCard
 							Obj={{
 								image: '/showcases/live-data.webp',
@@ -19,7 +19,7 @@ export default function BentoGridComponent() {
 								description:
 									'Track the exact number of visitors being live on your page with our intuitive real-time dashboard.',
 							}}
-						/>	
+						/>
 						<BentoGridCard
 							Obj={{
 								image: '/showcases/filtering.webp',
@@ -29,28 +29,28 @@ export default function BentoGridComponent() {
 							}}
 						/>
 					</div>
-					<div className='grid grid-cols-1 gap-5 lg:grid-cols-3'>
+					<div className="grid grid-cols-1 gap-5 lg:grid-cols-3">
 						<BentoGridCard
 							Obj={{
 								heading: 'Live data',
 								description:
 									'Track the exact number of visitors being live on your page with our dashboard.',
 							}}
-						/>	
+						/>
 						<BentoGridCard
 							Obj={{
 								heading: 'Live data',
 								description:
 									'Track the exact number of visitors being live on your page with our dashboard.',
 							}}
-						/>	
+						/>
 						<BentoGridCard
 							Obj={{
 								heading: 'Live data',
 								description:
 									'Track the exact number of visitors being live on your page with our dashboard.',
 							}}
-						/>	
+						/>
 					</div>
 					{/*
 					<div className='grid grid-cols-1 gap-5 md:grid-cols-[60%_1fr]'>
