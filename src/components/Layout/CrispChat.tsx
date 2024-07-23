@@ -14,7 +14,6 @@ const CrispChat: React.FC = () => {
 		if (!window.$crisp) {
 			window.$crisp = []
 			window.CRISP_WEBSITE_ID = '43a3bc68-e405-4a3e-a830-fde2df7fccf5'
-
 			;(function () {
 				const d = document
 				const s = d.createElement('script')

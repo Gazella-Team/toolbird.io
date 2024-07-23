@@ -125,9 +125,7 @@ export default function PricingTable() {
 						</p>
 					</div>
 					<div className="px-7 pb-14">
-						<h1 className="text-5xl font-bold">
-							Let&apos;s talk
-						</h1>
+						<h1 className="text-5xl font-bold">Let&apos;s talk</h1>
 					</div>
 					<div className="bg-slate-50 paragraph border-y py-5 px-7 border-gray-600/10">
 						<div className="flex">

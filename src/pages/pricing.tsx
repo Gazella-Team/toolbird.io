@@ -4,18 +4,19 @@ import PricingTable from '@/components/pricingtable'
 import PricingFAQ from '@/components/FAQ/PricingFAQ'
 import Meta from '@/components/Layout/Meta'
 import CurvePageIntro from '@/components/CurvePageIntro'
+import PricingSliderBox from '@/components/pricing/PricingSliderBox'
 
 export default function Pricing() {
 	return (
 		<Layout whiteBeforeScroll={true} white={true}>
 			<Meta title={`Pricing - Toolbird.io`} />
 			<CurvePageIntro
-				hook="Flexible pricing"
+				hook="A price for every project"
 				highlighted=""
 				heading="Pricing for everyone"
 				paragraph="We offer plans that suit any project. Get started within a few minutes."
 			>
-			<PricingTable />
+				<PricingSliderBox />
 			</CurvePageIntro>
 			{
 				<BlurSection

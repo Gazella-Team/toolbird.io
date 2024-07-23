@@ -2,7 +2,7 @@ import { Reveal } from '../Animations/Reveal'
 
 export default function BentoGridComponent() {
 	return (
-		<section className='mx-auto max-w-xl lg:max-w-none'>
+		<section className="mx-auto max-w-xl lg:max-w-none">
 			<div
 				style={{
 					background:
@@ -11,7 +11,7 @@ export default function BentoGridComponent() {
 				className="flex flex-col gap-5"
 			>
 				<div className="flex flex-col gap-5">
-					<div className='grid grid-cols-1 gap-5 lg:grid-cols-[60%_1fr]'>
+					<div className="grid grid-cols-1 gap-5 lg:grid-cols-[60%_1fr]">
 						<BentoGridCard
 							Obj={{
 								image: '/showcases/map.webp',
@@ -29,7 +29,7 @@ export default function BentoGridComponent() {
 							}}
 						/>
 					</div>
-					<div className='grid grid-cols-1 gap-5 lg:grid-cols-[1fr_60%]'>
+					<div className="grid grid-cols-1 gap-5 lg:grid-cols-[1fr_60%]">
 						<BentoGridCard
 							Obj={{
 								image: '/showcases/referrer.webp',
@@ -38,7 +38,7 @@ export default function BentoGridComponent() {
 									'Get advanced insights on where your online visitors are referred to your page from.',
 							}}
 						/>
-											<BentoGridCard
+						<BentoGridCard
 							Obj={{
 								image: '/showcases/page.webp',
 								heading: 'Page data',

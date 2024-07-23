@@ -7,12 +7,12 @@ const questions = [
 	},
 	{
 		question: 'Is Toolbird Analytics free?',
-		answer: 'Yes, we do offer a free plan. Our free plan allows you to track up to 2,500 page views per month. If you need to track more events, you can upgrade to one of our paid plans.',
+		answer: 'No, Toolbird is not free. Toolbird is a bootstrapped Company and we need to charge for our services to keep the lights on. We offer a 14-day free trial for all new users to try out our service before committing to a paid plan.',
 	},
 	{
 		question:
 			'What is the difference between page views and custom events?',
-		answer: 'Page views are the number of times your website has been viewed. Custom events are specific actions that users take on your website, such as clicking a button or submitting a form. Custom events are events that you define and track using Toolbird Analytics. We do offer a auto-track script, but it is not enabled by default.',
+		answer: 'Page views are the number of times your website has been viewed. Custom events are specific actions that users take on your website, such as clicking a button or submitting a form. Custom events are events that you define and track using Toolbird Analytics. Custom events are included in the pageviews limit.',
 	},
 ]
 

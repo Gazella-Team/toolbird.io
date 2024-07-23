@@ -3,7 +3,15 @@ import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { ChartBarIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
-import { Clock, CreditCard, MessageSquare, MessagesSquare, PieChart, ShieldCheckIcon, Zap } from 'lucide-react'
+import {
+	Clock,
+	CreditCard,
+	MessageSquare,
+	MessagesSquare,
+	PieChart,
+	ShieldCheckIcon,
+	Zap,
+} from 'lucide-react'
 
 const solutions = [
 	{
@@ -58,8 +66,8 @@ export default function Flyout() {
 									key={item.name}
 									className="group relative rounded-xl w-full p-2 hover:bg-slate-50"
 								>
-									<div className='flex items-center gap-3'>
-										<div className='flex'>
+									<div className="flex items-center gap-3">
+										<div className="flex">
 											<div className="font-semibold shadow-sm bg-white p-3 border rounded-xl paragraph flex items-center gap-2 text-gray-800">
 												{item.icon}
 											</div>
@@ -74,46 +82,60 @@ export default function Flyout() {
 								</Link>
 							))}
 						</div>
-						<div style={{ background: 'linear-gradient(329deg, rgba(244,244,244,1) 0%, rgba(250,248,255,1) 17%, rgba(247,247,247,1) 37%, rgba(253,252,255,1) 67%, rgba(252,251,255,1) 94%)', }} className="p-4 grid border-t border-gray-600/10 grid-cols-2 w-full">
-							<div className='p-2'>
-								<h1 className='text-gray-800'>INDUSTRY</h1>
+						<div
+							style={{
+								background:
+									'linear-gradient(329deg, rgba(244,244,244,1) 0%, rgba(250,248,255,1) 17%, rgba(247,247,247,1) 37%, rgba(253,252,255,1) 67%, rgba(252,251,255,1) 94%)',
+							}}
+							className="p-4 grid border-t border-gray-600/10 grid-cols-2 w-full"
+						>
+							<div className="p-2">
+								<h1 className="text-gray-800">INDUSTRY</h1>
 								<div>
 									<Link
-										href={"/for-agencies"}
+										href={'/for-agencies'}
 										className="relative rounded-xl w-full p-2 py-0 my-0 hover:bg-slate-50"
 									>
-											<div>
-												<h2 className='text-gray-600 font-normal'>For agencies</h2>
-											</div>
+										<div>
+											<h2 className="text-gray-600 font-normal">
+												For agencies
+											</h2>
+										</div>
 									</Link>
 									<Link
-										href={"/for-agencies"}
+										href={'/for-agencies'}
 										className="relative rounded-xl w-full p-2 py-0 hover:bg-slate-50"
 									>
-											<div>
-												<h2 className='text-gray-600 font-normal'>For startups</h2>
-											</div>
+										<div>
+											<h2 className="text-gray-600 font-normal">
+												For startups
+											</h2>
+										</div>
 									</Link>
 									<Link
-										href={"/for-agencies"}
+										href={'/for-agencies'}
 										className="relative rounded-xl w-full p-2 py-0 hover:bg-slate-50"
 									>
-											<div>
-												<h2 className='text-gray-600 font-normal'>For creators</h2>
-											</div>
+										<div>
+											<h2 className="text-gray-600 font-normal">
+												For creators
+											</h2>
+										</div>
 									</Link>
 								</div>
 							</div>
-							<div className='p-2'>
-								<h1 className='text-gray-800'>COMPARE</h1>
+							<div className="p-2">
+								<h1 className="text-gray-800">COMPARE</h1>
 								<div>
 									<Link
-										href={"/for-agencies"}
+										href={'/for-agencies'}
 										className="relative rounded-xl w-full p-2 hover:bg-slate-50"
 									>
-											<div>
-												<h2 className='text-gray-600 font-normal'>Plausible</h2>
-											</div>
+										<div>
+											<h2 className="text-gray-600 font-normal">
+												Plausible
+											</h2>
+										</div>
 									</Link>
 								</div>
 							</div>

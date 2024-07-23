@@ -17,7 +17,7 @@ type NavbarProps = {
 	whiteBeforeScroll?: boolean
 }
 
-export default function Navbar(props:NavbarProps) {
+export default function Navbar(props: NavbarProps) {
 	const [menuClicked, setMenuClicked] = useState(false)
 	const router = useRouter()
 
@@ -26,10 +26,7 @@ export default function Navbar(props:NavbarProps) {
 	return (
 		<nav className="top-0 sticky z-50">
 			<div className="bg-white border-b border-gray-600/10 hidden text-gray-600 lg:flex items-center justify-center h-10 text-sm paragraph">
-				<RefLink
-					className="underline"
-					href={'/affiliate'}
-				>
+				<RefLink className="underline" href={'/affiliate'}>
 					Start earning money as a Toolbird Affiliate 🎉
 				</RefLink>
 			</div>
@@ -38,7 +35,9 @@ export default function Navbar(props:NavbarProps) {
 					'h-[58px] w-full transition-all flex items-center',
 					scrolled
 						? 'border-b border-gray-600/10 bg-white/50 backdrop-blur-xl'
-						: props.whiteBeforeScroll || menuClicked ? 'bg-white':'bg-transparent'
+						: props.whiteBeforeScroll || menuClicked
+							? 'bg-white'
+							: 'bg-transparent'
 				)}
 			>
 				<div className="w-[86%] paragraph max-w-6xl mx-auto flex items-center justify-between text-gray-800">

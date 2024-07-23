@@ -34,6 +34,7 @@ html {
 		sans-serif;
 }
 
+
 .rc-slider {
     height: 6px !important;
     padding: 0 !important
@@ -52,7 +53,7 @@ html {
 .rc-slider .rc-slider-handle {
     height: 20px;
     width: 20px;
-    background-color: #6039d6;
+    background-color: #7047EB;
     border-color: #A991F3;
 }
 
