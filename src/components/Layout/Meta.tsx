@@ -5,7 +5,7 @@ const Meta = ({
 	keywords = 'Analytics, Web, Web Analytics,',
 	description = 'Toolbird is an intuitive, privacy-friendly and lightweight Google Analytics alternative. Your website data is fully yours and the privacy of your visitors is respected.',
 	icon = '/seo/favicon.png',
-	banner = '/seo/banner.jpg',
+	banner = '/seo/banner.png',
 	url = '',
 	authors,
 }: {
