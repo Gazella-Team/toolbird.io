@@ -2,6 +2,7 @@ import HeroDashboard from '@/components/HeroDashboard'
 import Layout from '@/components/Layout'
 import SectionIntro from '@/components/SectionIntro'
 import BentoGridComponent from '@/components/bento-grids/analytics-bento-grid'
+import SecondBentoGridComponent from '@/components/bento-grids/landing-bento-grid'
 import BlurSection from '@/components/blur-section'
 import CustomerSlider from '@/components/customer-slider'
 import AnalyticsFeatureBox from '@/components/feature-boxes/analytics-feature-box'
@@ -36,6 +37,14 @@ export default function Home() {
 				hook="Features Included"
 			>
 				<BentoGridComponent />
+			</SectionIntro>
+			<SectionIntro
+				topMargin={true}
+				heading="Detailed analytics"
+				description="Go in depth with analyzing your web-visitors engagement and behaviour."
+				hook="More Than Just Analytics"
+			>
+				<SecondBentoGridComponent />
 			</SectionIntro>
 			<SectionIntro
 				topMargin={true}

@@ -22,12 +22,12 @@ export default function BentoGridComponent() {
 						/>
 						<BentoGridCard
 							Obj={{
-								image: '/showcases/live-data.webp',
-								heading: 'Live data',
+								image: '/showcases/device.webp',
+								heading: 'Device data',
 								description:
-									'Track the exact number of visitors being live on your page with our intuitive real-time dashboard.',
+									'Track what browser, operating system and physical device your visitors use to better optimize your page.',
 							}}
-						/>	
+						/>
 					</div>
 					<div className='grid grid-cols-1 gap-5 lg:grid-cols-[1fr_60%]'>
 						<BentoGridCard
@@ -44,24 +44,6 @@ export default function BentoGridComponent() {
 								heading: 'Page data',
 								description:
 									'Track exactly what pages your visitors use the most, when they enter, how long they stay, and when they leave.',
-							}}
-						/>
-					</div>
-					<div className='grid grid-cols-1 gap-5 lg:grid-cols-[60%_1fr]'>
-						<BentoGridCard
-							Obj={{
-								image: '/showcases/device.webp',
-								heading: 'Device data',
-								description:
-									'Track what browser, operating system and physical device your visitors use to better optimize your page.',
-							}}
-						/>
-						<BentoGridCard
-							Obj={{
-								image: '/showcases/filtering.webp',
-								heading: 'Advanced filtering',
-								description:
-									'Filter the displayed data by time, locations, devices, pages, sources and more, to gain precise insights.',
 							}}
 						/>
 					</div>
