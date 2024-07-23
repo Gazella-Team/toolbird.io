@@ -28,43 +28,44 @@ export default function CustomTracking() {
 				>
 					<div className="flex flex-col gap-3">
 						<p className="font-[Caveat] text-main text-2xl">
-							Custom event tracking
+							No more selling to third-parties
 						</p>
 						<h2 className="text-4xl max-w-md font-semibold text-gray-800">
-							Track custom events for detailed insights
+							Privacy focused analytics
 						</h2>
 					</div>
 					<p className="paragraph text-lg text-gray-600 max-w-md mb-4">
-						Get a detailed reporting tab for each client and also
-						all client reporting data in one easy dashboard. No more
-						switching between platforms.
+						With Toolbird you can track your website visitors
+						without the need for cookies. Our privacy focused
+						analytics tool is GDPR, CCPA, and PECR compliant. No
+						data is shared or sold to any third-parties.
 					</p>
 					<div className="flex flex-col paragraph gap-5">
 						<div className="flex items-center gap-3">
 							<FaCheckCircle size={20} className="text-main" />
 							<p className="text-lg text-gray-600">
-								Less than 4kb
+								Cookie-less tracking.
 							</p>
 						</div>
 						<div className="flex items-center gap-3">
 							<FaCheckCircle size={20} className="text-main" />
 							<p className="text-lg text-gray-600">
-								Less than 4kb
+								GDPR, CCPA, and PECR compliant.
 							</p>
 						</div>
 						<div className="flex items-center gap-3">
 							<FaCheckCircle size={20} className="text-main" />
 							<p className="text-lg text-gray-600">
-								Less than 4kb
+								No data is shared with third-parties.
 							</p>
 						</div>
 					</div>
 					<div className="flex mt-6">
 						<Link
 							href="https://app.toolbird.io/auth/register"
-							className="bg-main paragraph border-[3px] border-main font-normal text-sm text-white px-4 py-2 rounded-full"
+							className="bg-main hover:bg-main/80 transition-all paragraph font-medium text-sm text-white px-5 py-3 rounded-full"
 						>
-							Get started for free
+							Start 14-day free trial
 						</Link>
 					</div>
 				</div>

@@ -18,41 +18,40 @@ export default function LightweightScript() {
 							No website slowdowns
 						</p>
 						<h2 className="text-4xl font-semibold text-gray-800 max-w-md">
-							Our lightweight script don&apos;t compromise on
-							speed
+							Lightweight script
 						</h2>
 					</div>
 					<p className="paragraph text-lg text-gray-600 max-w-md mb-4">
-						Get a detailed reporting tab for each client and also
-						all client reporting data in one easy dashboard. No more
-						switching between platforms.
+						Our script is less than 4kb in size and is implementable
+						on any website. It doesn&apos;t slow down your website
+						and is perfect for any website that needs tracking.
 					</p>
 					<div className="flex flex-col paragraph gap-5">
 						<div className="flex items-center gap-3">
 							<FaCheckCircle size={20} className="text-main" />
 							<p className="text-lg text-gray-600">
-								Less than 4kb
+								Less than 4kb in size
 							</p>
 						</div>
 						<div className="flex items-center gap-3">
 							<FaCheckCircle size={20} className="text-main" />
 							<p className="text-lg text-gray-600">
-								Less than 4kb
+								Implementable on any website
 							</p>
 						</div>
 						<div className="flex items-center gap-3">
 							<FaCheckCircle size={20} className="text-main" />
 							<p className="text-lg text-gray-600">
-								Less than 4kb
+								2 minute setup
 							</p>
 						</div>
 					</div>
 					<div className="flex mt-6">
 						<Link
 							href="https://app.toolbird.io/auth/register"
-							className="bg-main paragraph border-[3px] border-main font-normal text-sm text-white px-4 py-2 rounded-full"
+							className="bg-main hover:bg-main/80 transition-all paragraph font-medium text-sm text-white px-5 py-3 rounded-full"
 						>
-							Get started for free
+							Start 14-day free trial
 						</Link>
 					</div>
 				</div>
