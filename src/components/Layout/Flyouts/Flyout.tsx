@@ -82,7 +82,9 @@ export default function Flyout() {
 								</Link>
 							))}
 						</div>
-						<div
+						{
+							/*
+													<div
 							style={{
 								background:
 									'linear-gradient(329deg, rgba(244,244,244,1) 0%, rgba(250,248,255,1) 17%, rgba(247,247,247,1) 37%, rgba(253,252,255,1) 67%, rgba(252,251,255,1) 94%)',
@@ -140,6 +142,8 @@ export default function Flyout() {
 								</div>
 							</div>
 						</div>
+							 */
+						}
 					</div>
 				</Popover.Panel>
 			</Transition>
