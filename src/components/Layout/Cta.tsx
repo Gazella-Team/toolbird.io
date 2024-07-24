@@ -14,15 +14,16 @@ export default function Cta() {
 							></img>
 						</div>
 					</div>
-					<h2 className="text-[35px] md:text-[45px] xl:text-[50px] leading-[110%] max-w-[600px] mb-4 mx-auto font-extrabold text-gray-800">
+					<h2 className="text-[35px] md:text-[45px] xl:text-[50px] leading-[110%] max-w-[600px] mb-4 mx-auto font-bold text-gray-800">
+						Start your{' '}
 						<span className="bg-gradient-to-r from-main via-violet-700 to-main text-transparent bg-clip-text">
-							Supercharge{' '}
+							free trial
 						</span>{' '}
-						your user-driven SaaS development today
+						today
 					</h2>
 					<p className="text-base md:text-lg xl:text-lg paragraph max-w-[350px] mx-auto text-gray-600">
-						Increase your project overview today with the ultimate
-						toolbox for SaaS developers.
+						Increase your website overview today. Get started in
+						just a few minutes.
 					</p>
 					<div className="flex items-center paragraph relative justify-center gap-3 mt-8 font-medium">
 						<Link
@@ -34,7 +35,6 @@ export default function Cta() {
 					</div>
 				</div>
 			</section>
-			{/*<CustomerSlider />*/}
 		</>
 	)
 }

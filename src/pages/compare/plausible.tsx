@@ -18,22 +18,36 @@ import { XCircleIcon } from '@heroicons/react/24/outline'
 export default function ComparePlausible() {
 	return (
 		<Layout whiteBeforeScroll={true} noCta={true} white={true}>
-			<Meta title={`Toolbird vs Plausible: The #1 Plausible Alternative`} />
+			<Meta
+				title={`Toolbird vs Plausible: The #1 Plausible Alternative`}
+			/>
 			<CurvePageIntro
 				hook="The #1 Plausible Alternative"
 				highlighted=""
 				heading="Toolbird vs Plausible"
 				paragraph="Looking for the best Plausible Alternative? See why others prefer using Toolbird."
 			>
-			<section className="mt-6">
-				<div className="grid grid-cols-1 lg:grid-cols-[42%_1fr_42%] mx-auto max-w-6xl w-[86%] gap-14 lg:gap-6">
-					<div style={{ background: 'linear-gradient(329deg, rgba(244,244,244,1) 0%, rgba(250,248,255,1) 17%, rgba(247,247,247,1) 37%, rgba(253,252,255,1) 67%, rgba(252,251,255,1) 94%)', }} className="relative rounded-3xl border-2 border-main text-gray-800 shadow-clean shadow-main/30">
-						<div className="flex relative flex-col gap-2 pb-12 px-7 pt-10">
-							<div className="flex items-center h-12 gap-3">
-								<Link href={'/'}> <img className="w-[140px]" src="/logos/finallogo.svg" /> </Link>
+				<section className="mt-6">
+					<div className="grid grid-cols-1 lg:grid-cols-[42%_1fr_42%] mx-auto max-w-6xl w-[86%] gap-14 lg:gap-6">
+						<div
+							style={{
+								background:
+									'linear-gradient(329deg, rgba(244,244,244,1) 0%, rgba(250,248,255,1) 17%, rgba(247,247,247,1) 37%, rgba(253,252,255,1) 67%, rgba(252,251,255,1) 94%)',
+							}}
+							className="relative rounded-3xl border-2 border-main text-gray-800 shadow-clean shadow-main/30"
+						>
+							<div className="flex relative flex-col gap-2 pb-12 px-7 pt-10">
+								<div className="flex items-center h-12 gap-3">
+									<Link href={'/'}>
+										{' '}
+										<img
+											className="w-[140px]"
+											src="/logos/finallogo.svg"
+										/>{' '}
+									</Link>
+								</div>
 							</div>
-						</div>
-						<div className="px-7 pb-14">
+							<div className="px-7 pb-14">
 								<h1 className="text-5xl font-extrabold">
 									$19
 									<span className="ml-1 text-base paragraph font-[400] text-gray-600">
@@ -41,98 +55,108 @@ export default function ComparePlausible() {
 									</span>
 								</h1>
 							</div>
-						<div className="bg-slate-50 paragraph border-y py-5 px-7 border-gray-600/10">
-							<div className="flex">
-								<Link
-									target="_blank"
-									href="https://app.toolbird.io/auth/login"
-									className="bg-main text-center w-full border-[3px] border-main text-sm font-medium text-white px-6 py-2 rounded-full"
-								>
-									Start 14-day free trial
-								</Link>
-							</div>
-						</div>
-						<div>
-							<h3 className="p-7 pb-0 paragraph text-gray-500 font-medium">
-								Custom specifications:
-							</h3>
-							<div className="py-10 pt-6 px-7 paragraph flex flex-col gap-6">
-								<div className="flex items-center gap-4">
-									<FaCheckCircle
-										size={18}
-										className="text-gray-800"
-									/>
-									<h2 className="text-gray-800">Custom events</h2>
-								</div>
-								<div className="flex items-center gap-4">
-									<FaCheckCircle
-										size={18}
-										className="text-gray-800"
-									/>
-									<h2 className="text-gray-800">
-										Privacy-friendly
-									</h2>
-								</div>
-								<div className="flex items-center gap-4">
-									<FaCheckCircle
-										size={18}
-										className="text-gray-800"
-									/>
-									<h2 className="text-gray-800">
-										Lightweight script
-									</h2>
-								</div>
-								<div className="flex items-center gap-4">
-									<FaCheckCircle
-										size={18}
-										className="text-gray-800"
-									/>
-									<h2 className="text-gray-800">
-										Custom seats
-									</h2>
-								</div>
-								<div className="flex items-center gap-4">
-									<FaCheckCircle
-										size={18}
-										className="text-gray-800"
-									/>
-									<h2 className="text-gray-800">
-										Unlimited data retention
-									</h2>
-								</div>
-								<div className="flex items-center gap-4">
-									<FaCheckCircle
-										size={18}
-										className="text-gray-800"
-									/>
-									<h2 className="text-gray-800">
-										Beautiful, intuitive UI
-									</h2>
-								</div>
-								<div className="flex items-center gap-4">
-									<FaCheckCircle
-										size={18}
-										className="text-gray-800"
-									/>
-									<h2 className="text-gray-800">
-										2 minute setup
-									</h2>
+							<div className="bg-slate-50 paragraph border-y py-5 px-7 border-gray-600/10">
+								<div className="flex">
+									<Link
+										target="_blank"
+										href="https://app.toolbird.io/auth/login"
+										className="bg-main text-center w-full border-[3px] border-main text-sm font-medium text-white px-6 py-2 rounded-full"
+									>
+										Start 14-day free trial
+									</Link>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div className='flex select-none lg:mt-16 justify-center'>
-						<div className='bg-main flex items-center justify-center rounded-full right-0 w-20 h-20'>
-							<p className='text-white font-[Caveat] font-bold text-3xl ml-[-6px]'>VS</p>
-						</div>
-					</div>
-					<div className="bg-white relative rounded-3xl border border-gray-600/10 text-gray-800 shadow-clean">
-						<div className="flex relative flex-col gap-2 pb-12 px-7 pt-10">
-							<div className="flex items-center h-12 gap-3">
-								<Link href={'/'}> <img className="w-[140px]" src="/compare/plausible.svg" /> </Link>
+							<div>
+								<h3 className="p-7 pb-0 paragraph text-gray-500 font-medium">
+									Custom specifications:
+								</h3>
+								<div className="py-10 pt-6 px-7 paragraph flex flex-col gap-6">
+									<div className="flex items-center gap-4">
+										<FaCheckCircle
+											size={18}
+											className="text-gray-800"
+										/>
+										<h2 className="text-gray-800">
+											Custom events
+										</h2>
+									</div>
+									<div className="flex items-center gap-4">
+										<FaCheckCircle
+											size={18}
+											className="text-gray-800"
+										/>
+										<h2 className="text-gray-800">
+											Privacy-friendly
+										</h2>
+									</div>
+									<div className="flex items-center gap-4">
+										<FaCheckCircle
+											size={18}
+											className="text-gray-800"
+										/>
+										<h2 className="text-gray-800">
+											Lightweight script
+										</h2>
+									</div>
+									<div className="flex items-center gap-4">
+										<FaCheckCircle
+											size={18}
+											className="text-gray-800"
+										/>
+										<h2 className="text-gray-800">
+											Custom seats
+										</h2>
+									</div>
+									<div className="flex items-center gap-4">
+										<FaCheckCircle
+											size={18}
+											className="text-gray-800"
+										/>
+										<h2 className="text-gray-800">
+											Unlimited data retention
+										</h2>
+									</div>
+									<div className="flex items-center gap-4">
+										<FaCheckCircle
+											size={18}
+											className="text-gray-800"
+										/>
+										<h2 className="text-gray-800">
+											Beautiful, intuitive UI
+										</h2>
+									</div>
+									<div className="flex items-center gap-4">
+										<FaCheckCircle
+											size={18}
+											className="text-gray-800"
+										/>
+										<h2 className="text-gray-800">
+											2 minute setup
+										</h2>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div className="px-7 pb-14 bg-white">
+						<div className="flex select-none lg:mt-16 justify-center">
+							<div className="bg-main flex items-center justify-center rounded-full right-0 w-20 h-20">
+								<p className="text-white font-[Caveat] font-bold text-3xl ml-[-6px]">
+									VS
+								</p>
+							</div>
+						</div>
+						<div className="bg-white relative rounded-3xl border border-gray-600/10 text-gray-800 shadow-clean">
+							<div className="flex relative flex-col gap-2 pb-12 px-7 pt-10">
+								<div className="flex items-center h-12 gap-3">
+									<Link href={'/'}>
+										{' '}
+										<img
+											className="w-[140px]"
+											src="/compare/plausible.svg"
+										/>{' '}
+									</Link>
+								</div>
+							</div>
+							<div className="px-7 pb-14 bg-white">
 								<h1 className="text-5xl font-extrabold">
 									$19
 									<span className="ml-1 text-base paragraph font-[400] text-gray-600">
@@ -140,94 +164,79 @@ export default function ComparePlausible() {
 									</span>
 								</h1>
 							</div>
-						<div className="bg-slate-50 paragraph border-y py-5 px-7 border-gray-600/10">
-							<div className="flex">
-								<Link
-									target="_blank"
-									href="https://app.toolbird.io/auth/login"
-									className="bg-gray-800 text-center w-full border-[3px] border-gray-800 text-sm font-medium text-white px-6 py-2 rounded-full"
-								>
-									Migrate from Plausible
-								</Link>
+							<div className="bg-slate-50 paragraph border-y py-5 px-7 border-gray-600/10">
+								<div className="flex">
+									<Link
+										target="_blank"
+										href="https://app.toolbird.io/auth/login"
+										className="bg-gray-800 text-center w-full border-[3px] border-gray-800 text-sm font-medium text-white px-6 py-2 rounded-full"
+									>
+										Migrate from Plausible
+									</Link>
+								</div>
 							</div>
-						</div>
-						<div>
-							<h3 className="p-7 pb-0 paragraph text-gray-500 font-medium">
-								Custom specifications:
-							</h3>
-							<div className="py-10 pt-6 px-7 paragraph flex flex-col gap-6">
-								<div className="flex items-center gap-4">
-									<FaCheckCircle
-										size={18}
-										className="text-gray-800"
-									/>
-									<h2 className="text-gray-800">Custom events</h2>
-								</div>
-								<div className="flex items-center gap-4">
-									<FaCheckCircle
-										size={18}
-										className="text-gray-800"
-									/>
-									<h2 className="text-gray-800">
-										Privacy-friendly
-									</h2>
-								</div>
-								<div className="flex items-center gap-4">
-									<FaCheckCircle
-										size={18}
-										className="text-gray-800"
-									/>
-									<h2 className="text-gray-800">
-										Lightweight script
-									</h2>
-								</div>
-								<div className="flex text-gray-500 items-center gap-4">
-									<X
-										size={18}
-										className=""
-									/>
-									<h2 className="">
-										Limited seats
-									</h2>
-								</div>
-								<div className="flex text-gray-500 items-center gap-4">
-									<X
-										size={18}
-										className=""
-									/>
-									<h2 className="">
-										Unlimited data retention
-									</h2>
-								</div>
-								<div className="flex text-gray-500 items-center gap-4">
-									<X
-										size={18}
-										className=""
-									/>
-									<h2 className="">
-										Beautiful, intuitive UI
-									</h2>
-								</div>
-								<div className="flex text-gray-500 items-center gap-4">
-									<X
-										size={18}
-										className=""
-									/>
-									<h2 className="">
-										2 minute setup
-									</h2>
+							<div>
+								<h3 className="p-7 pb-0 paragraph text-gray-500 font-medium">
+									Custom specifications:
+								</h3>
+								<div className="py-10 pt-6 px-7 paragraph flex flex-col gap-6">
+									<div className="flex items-center gap-4">
+										<FaCheckCircle
+											size={18}
+											className="text-gray-800"
+										/>
+										<h2 className="text-gray-800">
+											Custom events
+										</h2>
+									</div>
+									<div className="flex items-center gap-4">
+										<FaCheckCircle
+											size={18}
+											className="text-gray-800"
+										/>
+										<h2 className="text-gray-800">
+											Privacy-friendly
+										</h2>
+									</div>
+									<div className="flex items-center gap-4">
+										<FaCheckCircle
+											size={18}
+											className="text-gray-800"
+										/>
+										<h2 className="text-gray-800">
+											Lightweight script
+										</h2>
+									</div>
+									<div className="flex text-gray-500 items-center gap-4">
+										<X size={18} className="" />
+										<h2 className="">Limited seats</h2>
+									</div>
+									<div className="flex text-gray-500 items-center gap-4">
+										<X size={18} className="" />
+										<h2 className="">
+											Unlimited data retention
+										</h2>
+									</div>
+									<div className="flex text-gray-500 items-center gap-4">
+										<X size={18} className="" />
+										<h2 className="">
+											Beautiful, intuitive UI
+										</h2>
+									</div>
+									<div className="flex text-gray-500 items-center gap-4">
+										<X size={18} className="" />
+										<h2 className="">2 minute setup</h2>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 			</CurvePageIntro>
 			<BlurSection
-					bottomMargin={true}
-					heading="Toolbird provides the best experience"
-					hook="More than just Analytics"
-				>
+				heading="Toolbird provides the best experience"
+				hook="More than just Analytics"
+			>
 				<div className="grid grid-cols-1 lg:grid-cols-2 paragraph gap-x-32 gap-y-16 w-[90%] mt-12 mx-auto">
 					<div className="flex gap-4">
 						<div className="w-10">
@@ -260,7 +269,8 @@ export default function ComparePlausible() {
 								Data ownership
 							</h2>
 							<p className="text-gray-600">
-								You have 100% ownership of your data, with fully control over the stats we collect.
+								You have 100% ownership of your data, with fully
+								control over the stats we collect.
 							</p>
 						</div>
 					</div>
@@ -277,7 +287,9 @@ export default function ComparePlausible() {
 								Fast and intuitive
 							</h2>
 							<p className="text-gray-600">
-								Our fast systems and user-friendly experience allows you to navigate your analytics as easy as possible.
+								Our fast systems and user-friendly experience
+								allows you to navigate your analytics as easy as
+								possible.
 							</p>
 						</div>
 					</div>
@@ -294,7 +306,9 @@ export default function ComparePlausible() {
 								All features
 							</h2>
 							<p className="text-gray-600">
-								Track page data, referral data, geographic data and device data, and many other live data points.
+								Track page data, referral data, geographic data
+								and device data, and many other live data
+								points.
 							</p>
 						</div>
 					</div>
@@ -311,7 +325,9 @@ export default function ComparePlausible() {
 								Custom tracking
 							</h2>
 							<p className="text-gray-600">
-								Track advanced analytics of specific buttons, links, sections and more with custom event tracking.
+								Track advanced analytics of specific buttons,
+								links, sections and more with custom event
+								tracking.
 							</p>
 						</div>
 					</div>
@@ -328,12 +344,17 @@ export default function ComparePlausible() {
 								Prioritized support
 							</h2>
 							<p className="text-gray-600">
-								We&apos;re online 24/7 to answer any questions or fix any issues you might stumble into in regards to Toolbird.
+								We&apos;re online 24/7 to answer any questions
+								or fix any issues you might stumble into in
+								regards to Toolbird.
 							</p>
 						</div>
 					</div>
 				</div>
-				<img className='w-full rounded-3xl mt-24 border border-gray-600/10' src="/showcases/analysis.webp"></img>
+				<img
+					className="w-full rounded-3xl mt-24 border border-gray-600/10"
+					src="/showcases/analysis.webp"
+				></img>
 			</BlurSection>
 			{/*
 			<SectionIntro
@@ -381,7 +402,8 @@ export default function ComparePlausible() {
 						from Plausbile in 1 minute
 					</h2>
 					<p className="text-base md:text-lg xl:text-lg paragraph max-w-[350px] mx-auto text-gray-600">
-						Ready to switch to Toolbird and experience world class analytics? Get started for free.
+						Ready to switch to Toolbird and experience world class
+						analytics? Get started for free.
 					</p>
 					<div className="flex items-center paragraph relative justify-center gap-3 mt-8 font-medium">
 						<Link

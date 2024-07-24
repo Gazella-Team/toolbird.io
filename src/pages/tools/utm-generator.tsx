@@ -82,7 +82,7 @@ export default function UTMGeneratorTool() {
 				>
 					<div className="flex flex-col gap-12 mx-auto max-w-4xl">
 						<div className="flex flex-col gap-4">
-							<h2 className="text-3xl font-[Sora] text-center font-semibold text-gray-800">
+							<h2 className="text-3xl text-center font-semibold text-gray-800">
 								UTM Generator for Campaign Tracking
 							</h2>
 							<p className="text-gray-600 max-w-2xl text-center mx-auto">

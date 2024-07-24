@@ -17,7 +17,7 @@ type NavbarProps = {
 	whiteBeforeScroll?: boolean
 }
 
-export default function Navbar(props:NavbarProps) {
+export default function Navbar(props: NavbarProps) {
 	const [menuClicked, setMenuClicked] = useState(false)
 	const router = useRouter()
 
@@ -26,11 +26,8 @@ export default function Navbar(props:NavbarProps) {
 	return (
 		<nav className="top-0 sticky z-50">
 			<div className="bg-white border-b border-gray-600/10 hidden text-gray-600 lg:flex items-center justify-center h-10 text-sm paragraph">
-				<RefLink
-					className="underline"
-					href={'https://app.toolbird.io/auth/register'}
-				>
-					Start your 14-day free trial today 🎉
+				<RefLink className="underline" href={'/affiliate'}>
+					Start earning money as a Toolbird Affiliate 🎉
 				</RefLink>
 			</div>
 			<div
@@ -38,7 +35,9 @@ export default function Navbar(props:NavbarProps) {
 					'h-[58px] w-full transition-all flex items-center',
 					scrolled
 						? 'border-b border-gray-600/10 bg-white/50 backdrop-blur-xl'
-						: props.whiteBeforeScroll || menuClicked ? 'bg-white':'bg-transparent'
+						: props.whiteBeforeScroll || menuClicked
+							? 'bg-white'
+							: 'bg-transparent'
 				)}
 			>
 				<div className="w-[86%] paragraph max-w-6xl mx-auto flex items-center justify-between text-gray-800">
@@ -56,11 +55,8 @@ export default function Navbar(props:NavbarProps) {
 						)}
 					>
 						<Flyout />
-						<RefLink href={'/pricing'}>Pricing</RefLink>
-						<RefLink href="/blog/introducing-toolbird">
-							About
-						</RefLink>
 						<Resources />
+						<RefLink href={'/pricing'}>Pricing</RefLink>
 					</div>
 					<div className="w-[250px] items-center justify-end gap-5 font-medium text-gray-800 hidden lg:flex">
 						<RefLink
@@ -89,40 +85,32 @@ export default function Navbar(props:NavbarProps) {
 				<div className="bg-white text-left text-gray-800 flex flex-col justify-between gap-4 font-semibold text-3xl w-[100%] mx-auto py-8 h-[calc(100vh-40px)] lg:hidden">
 					<div
 						className={cn(
-							'flex font-bold flex-col gap-6 w-[86%] mx-auto'
+							'flex font-semibold flex-col gap-6 w-[86%] mx-auto'
 						)}
 					>
-						<div className="flex flex-col gap-6 border-b border-b-gray-600/10 pb-4">
-							<RefLink
-								onClick={() => setMenuClicked(false)}
-								href="/analytics"
-							>
-								Web analytics
-							</RefLink>
-							<RefLink
-								onClick={() => setMenuClicked(false)}
-								href="/coming-soon"
-							>
-								Feedback Hub
-							</RefLink>
-							<RefLink
-								onClick={() => setMenuClicked(false)}
-								href="/coming-soon"
-							>
-								User Surveys
-							</RefLink>
-						</div>
+						<RefLink
+							onClick={() => setMenuClicked(false)}
+							href="/for-agencies"
+						>
+							For agencies
+						</RefLink>
+						<RefLink
+							onClick={() => setMenuClicked(false)}
+							href="/for-creators"
+						>
+							For creators
+						</RefLink>
+						<RefLink
+							onClick={() => setMenuClicked(false)}
+							href="/for-startups"
+						>
+							For startups
+						</RefLink>
 						<RefLink
 							onClick={() => setMenuClicked(false)}
 							href="/pricing"
 						>
 							Pricing
-						</RefLink>
-						<RefLink
-							onClick={() => setMenuClicked(false)}
-							href="/blog/introducing-toolbird"
-						>
-							About
 						</RefLink>
 						<RefLink
 							onClick={() => setMenuClicked(false)}

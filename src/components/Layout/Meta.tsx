@@ -1,11 +1,11 @@
 import Head from 'next/head'
 
 const Meta = ({
-	title = 'Toolbird: Collect and manage all user-insights in one place',
-	keywords = 'Toolbox, SaaS, Privacy-First Web Analytics, Feedback Hub, User Surveys, Tech Products',
-	description = 'Supercharge your user-driven SaaS development today with web analytics, feedback hub, user surveys - All in one place.',
+	title = 'Toolbird: A fast, intuitive and privacy-friendly Google Analytics alternative.',
+	keywords = 'Analytics, Web, Web Analytics,',
+	description = 'Toolbird is an intuitive, privacy-friendly and lightweight Google Analytics alternative. Your website data is fully yours and the privacy of your visitors is respected.',
 	icon = '/seo/favicon.png',
-	banner = '/seo/banner.jpg',
+	banner = '/seo/banner.png',
 	url = '',
 	authors,
 }: {

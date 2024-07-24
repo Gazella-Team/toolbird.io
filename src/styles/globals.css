@@ -4,7 +4,7 @@
 
 html {
 	font-family:
-		'Sora',
+		'Outfit',
 		system-ui,
 		-apple-system,
 		BlinkMacSystemFont,
@@ -32,4 +32,41 @@ html {
 		'Open Sans',
 		'Helvetica Neue',
 		sans-serif;
+}
+
+
+.rc-slider {
+    height: 6px !important;
+    padding: 0 !important
+}
+
+.rc-slider .rc-slider-rail {
+    background-color: #e4e4e4;
+    height: 8px;
+}
+
+.rc-slider .rc-slider-track {
+    height: 8px;
+    background-color: #7047EB;
+}
+
+.rc-slider .rc-slider-handle {
+    height: 20px;
+    width: 20px;
+    background-color: #7047EB;
+    border-color: #A991F3;
+}
+
+.rc-slider .rc-slider-handle:hover {
+    border-color: #7047EB;
+}
+
+.rc-slider .rc-slider-handle:active {
+    border-color: #7047EB;
+    box-shadow: 0 0 0 5px rgba(112, 71, 235, 0.2);
+}
+
+.rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging {
+    border-color: #7047EB !important;
+    box-shadow: 0 0 0 5px rgba(112, 71, 235, 0.2) !important;
 }

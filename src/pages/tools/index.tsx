@@ -34,7 +34,7 @@ export default function Tools() {
 			>
 				<div className="max-w-6xl py-24 w-[86%] text-center mx-auto">
 					<h1 className="text-4xl md:text-5xl font-bold  mb-4 text-gray-800">
-						Free to use{" "}
+						Free to use{' '}
 						<span className="bg-gradient-to-r from-main via-violet-700 to-main text-transparent bg-clip-text">
 							tools
 						</span>

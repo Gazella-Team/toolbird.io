@@ -25,7 +25,7 @@ export default function BlogCard({ post }: BlogCardProps) {
 			/>
 			<div className="flex flex-1 flex-col mt-2 justify-between rounded-b-lg bg-white p-6 px-8">
 				<div>
-					<h2 className="line-clamp-2 font-display text-xl font-bold text-gray-800">
+					<h2 className="line-clamp-2 font-display text-xl font-semibold text-gray-800">
 						{post.title}
 					</h2>
 					<p className="mt-2 paragraph line-clamp-2 text-sm text-gray-600">

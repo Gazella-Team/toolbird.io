@@ -18,38 +18,70 @@ import BlurDashboard from '@/components/blur-dashboard'
 export default function GoogleAnalyticsAlternative() {
 	return (
 		<Layout whiteBeforeScroll={true} noCta={true} white={true}>
-			<Meta title={`Toolbird vs Plausible: The #1 Plausible Alternative`} />
+			<Meta
+				title={`Toolbird vs Plausible: The #1 Plausible Alternative`}
+			/>
 			<PageIntro
 				buttons={[
-								{
-									text: 'Start 14-day free trial',
-									path: 'https://app.toolbird.io/auth/register',
-								},
-								{
-									text: 'Live demo',
-									path: 'https://app.toolbird.io/share/toolbird.io',
-									target: '_blank',
-								},
+					{
+						text: 'Start 14-day free trial',
+						path: 'https://app.toolbird.io/auth/register',
+					},
+					{
+						text: 'Live demo',
+						path: 'https://app.toolbird.io/share/toolbird.io',
+						target: '_blank',
+					},
 				]}
 				hook="Toolbird Analytics"
 				highlighted="analytics"
 				heading="Privacy-focused website"
 				paragraph="Looking for the best Plausible Alternative? See why others prefer using Toolbird."
 			/>
-			<BlurDashboard  image="/showcases/analysis.webp" />
-			<section style={{background: "linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4976584383753502) 10%, rgba(255,255,255,0.8954175420168067) 15%, rgba(255,255,255,0.9514399509803921) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,0.9458377100840336) 80%, rgba(255,255,255,0.8982186624649859) 85%, rgba(255,255,255,0.5032606792717087) 90%, rgba(255,255,255,0) 100%)"}} className='py-40'>
-				<div className='w-[86%] relative mx-auto max-w-2xl flex flex-col gap-20'>
-					<div className='flex flex-col gap-4'>
-						<h2 className='text-2xl font-semibold text-gray-800'>An Ergonomic Dashboard</h2>
-						<p className='text-gray-600 paragraph text-lg'>Our single-page dashboard provides actionable statistics. Dive deeper into what is going on with stackable filters. Switching between as many websites as you want makes Pirsch a good choice for web agencies and freelancers.</p>
+			<BlurDashboard image="/showcases/analysis.webp" />
+			<section
+				style={{
+					background:
+						'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4976584383753502) 10%, rgba(255,255,255,0.8954175420168067) 15%, rgba(255,255,255,0.9514399509803921) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,0.9458377100840336) 80%, rgba(255,255,255,0.8982186624649859) 85%, rgba(255,255,255,0.5032606792717087) 90%, rgba(255,255,255,0) 100%)',
+				}}
+				className="py-40"
+			>
+				<div className="w-[86%] relative mx-auto max-w-2xl flex flex-col gap-20">
+					<div className="flex flex-col gap-4">
+						<h2 className="text-2xl font-semibold text-gray-800">
+							An Ergonomic Dashboard
+						</h2>
+						<p className="text-gray-600 paragraph text-lg">
+							Our single-page dashboard provides actionable
+							statistics. Dive deeper into what is going on with
+							stackable filters. Switching between as many
+							websites as you want makes Pirsch a good choice for
+							web agencies and freelancers.
+						</p>
 					</div>
-					<div className='flex flex-col gap-4'>
-						<h2 className='text-2xl font-semibold text-gray-800'>Privacy over everything</h2>
-						<p className='text-gray-600 paragraph text-lg'>Our single-page dashboard provides actionable statistics. Dive deeper into what is going on with stackable filters. Switching between as many websites as you want makes Pirsch a good choice for web agencies and freelancers.</p>
+					<div className="flex flex-col gap-4">
+						<h2 className="text-2xl font-semibold text-gray-800">
+							Privacy over everything
+						</h2>
+						<p className="text-gray-600 paragraph text-lg">
+							Our single-page dashboard provides actionable
+							statistics. Dive deeper into what is going on with
+							stackable filters. Switching between as many
+							websites as you want makes Pirsch a good choice for
+							web agencies and freelancers.
+						</p>
 					</div>
-					<div className='flex flex-col gap-4'>
-						<h2 className='text-2xl font-semibold text-gray-800'>Integrate with t </h2>
-						<p className='text-gray-600 paragraph text-lg'>Our single-page dashboard provides actionable statistics. Dive deeper into what is going on with stackable filters. Switching between as many websites as you want makes Pirsch a good choice for web agencies and freelancers.</p>
+					<div className="flex flex-col gap-4">
+						<h2 className="text-2xl font-semibold text-gray-800">
+							Integrate with t{' '}
+						</h2>
+						<p className="text-gray-600 paragraph text-lg">
+							Our single-page dashboard provides actionable
+							statistics. Dive deeper into what is going on with
+							stackable filters. Switching between as many
+							websites as you want makes Pirsch a good choice for
+							web agencies and freelancers.
+						</p>
 					</div>
 				</div>
 			</section>

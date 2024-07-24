@@ -13,34 +13,25 @@ const FOOTER_LINKS: {
 	links: { label: string; href: string; target?: string }[]
 }[] = [
 	{
-		title: 'Products',
+		title: 'Solutions',
 		links: [
 			{
-				label: 'Web Analytics',
-				href: '/analytics',
-			},
-		],
-	},
-	{
-		title: 'Free Tools',
-		links: [
-			{
-				label: 'All tools',
-				href: '/tools',
+				label: 'For agencies',
+				href: '/for-agencies',
 			},
 			{
-				label: 'UTM Link Generator',
-				href: '/tools/utm-generator',
+				label: 'For creators',
+				href: '/for-creators',
+			},
+			{
+				label: 'For startups',
+				href: '/for-startups',
 			},
 		],
 	},
 	{
 		title: 'Company',
 		links: [
-			{
-				label: 'About us',
-				href: '/blog/introducing-toolbird',
-			},
 			{
 				label: 'Open Startup',
 				href: 'https://app.toolbird.io/share/toolbird.io',
@@ -60,6 +51,19 @@ const FOOTER_LINKS: {
 			{
 				label: 'Privacy Policy',
 				href: '/legal/privacy',
+			},
+		],
+	},
+	{
+		title: 'Free Tools',
+		links: [
+			{
+				label: 'All tools',
+				href: '/tools',
+			},
+			{
+				label: 'UTM Link Generator',
+				href: '/tools/utm-generator',
 			},
 		],
 	},
@@ -130,8 +134,8 @@ export default function Footer(props: FooterProps) {
 								alt="Toolbird Logo"
 							/>
 							<p className="text-gray-500 paragraph text-sm max-w-xs font-regular">
-								Get Web Analytics, Feedback Hub and User
-								Surveys, all collected in one place.
+								The best, fastest, most easy to use and
+								privacy-friendly Google Analytics alternative.
 							</p>
 						</div>
 						<div className="flex">
@@ -192,7 +196,6 @@ export default function Footer(props: FooterProps) {
 						</a>
 					</p>
 					<div className="flex items-center gap-4">
-						<p>lasse@toolbird.io</p>
 						<p className="font-[Caveat] text-xl">
 							Made and hosted in the EU 🇪🇺
 						</p>
