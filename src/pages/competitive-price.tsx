@@ -18,7 +18,7 @@ export default function CompetitivePrice() {
 			>
 				<div className="w-[86%] text-gray-800 flex flex-col gap-10 paragraph mx-auto max-w-xl">
 					<h2 className="text-4xl font-semibold">
-						Toolbird: Get worldclass analytics to a usage-based competitive price
+						Toolbird: Get worldclass website analytics for a usage-based competitive price
 					</h2>
 					<div>
 						<p className="text-gray-600">
@@ -37,7 +37,7 @@ export default function CompetitivePrice() {
                     <img className='rounded-2xl' src='/showcases/dashboard.webp'></img>
 					<div className="flex mt-5 flex-col gap-6">
 						<h2 className="text-2xl font-semibold">
-							A solution matching compliance
+							Usage based pricing
 						</h2>
 						<p className="text-gray-600">
 							One of the use cases Plausible Analytics was
