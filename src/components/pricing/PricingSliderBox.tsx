@@ -27,7 +27,7 @@ export default function PricingSliderBox() {
 
 	const selectedPlan = PLANS[value]
 	return (
-		<div>
+		<div className='w-[86%] mx-auto'>
 			<div className="flex flex-col w-full items-center justify-center gap-4">
 				<h2 className="text-2xl font-normal text-gray-600">
 					Up to{' '}
@@ -72,7 +72,7 @@ export default function PricingSliderBox() {
 						</div>
 						<div className="bg-slate-50 border-y py-3 px-7 border-gray-600/10">
 							<div className="flex">
-								<Link href={""} className="bg-main transition-all text-center paragraph w-full hover:bg-main/80 text-sm font-semibold text-white px-6 py-2 rounded-full transiton-all">
+								<Link target='_blank' href={"https://app.toolbird.io/auth/register"} className="bg-main transition-all text-center paragraph w-full hover:bg-main/80 text-sm font-semibold text-white px-6 py-2 rounded-full transiton-all">
 									Start 14-day free trial
 								</Link>
 							</div>

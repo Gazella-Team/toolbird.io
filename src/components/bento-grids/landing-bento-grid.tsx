@@ -46,9 +46,9 @@ export default function BentoGridComponent() {
 						/>
 						<BentoGridCard
 							Obj={{
-								heading: 'Live data',
+								heading: 'Visual data',
 								description:
-									'Track the exact number of visitors being live on your page with our dashboard.',
+									'All data, both filtered and unfiltered are displayed in intuitive charts.',
 							}}
 						/>
 					</div>

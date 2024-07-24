@@ -60,13 +60,6 @@ export default function LightweightScript() {
 						className="h-full w-full object-cover rounded-[25px]"
 						src="/showcases/speed.webp"
 					></img>
-					<div
-						className="absolute inset-0 h-full rounded-[25px]"
-						style={{
-							background:
-								'linear-gradient(0deg, rgba(255,255,255,0.8225884103641457) 0%, rgba(255,255,255,0) 1%, rgba(255,255,255,0.0441570378151261) 100%)',
-						}}
-					></div>
 				</div>
 			</div>
 		</section>

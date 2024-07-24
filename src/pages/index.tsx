@@ -11,6 +11,7 @@ import Hero02 from '@/components/hero-02'
 import Hero03 from '@/components/hero-03'
 import CustomTracking from '@/components/info-sections/custom-tracking'
 import LightweightScript from '@/components/info-sections/lightweight-script'
+import PrivacyFocused from '@/components/info-sections/privacy-focused'
 import Mission from '@/components/mission'
 import PricingSliderBox from '@/components/pricing/PricingSliderBox'
 import PricingTable from '@/components/pricingtable'
@@ -60,6 +61,7 @@ export default function Home() {
 			 */}
 			<LightweightScript />
 			<CustomTracking />
+			<PrivacyFocused />
 			<BlurSection
 				bottomMargin={false}
 				heading="Why Toolbird is the best analytics provider"

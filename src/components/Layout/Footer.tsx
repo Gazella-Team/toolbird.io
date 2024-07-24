@@ -37,10 +37,6 @@ const FOOTER_LINKS: {
 		title: 'Company',
 		links: [
 			{
-				label: 'About us',
-				href: '/blog/introducing-toolbird',
-			},
-			{
 				label: 'Open Startup',
 				href: 'https://app.toolbird.io/share/toolbird.io',
 			},

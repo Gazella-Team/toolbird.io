@@ -2,17 +2,11 @@ import { CircleCheck } from 'lucide-react'
 import Link from 'next/link'
 import { FaCheckCircle } from 'react-icons/fa'
 
-export default function CustomTracking() {
+export default function PrivacyFocused() {
 	return (
 		<section className="pt-12 pb-8">
 			<div className="w-[86%] mx-auto max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-20">
-				<div className="bg-white border paragraph text-center rounded-[25px] border-gray-600/10">
-					<img
-						className="h-full w-full object-cover rounded-[25px]"
-						src="/showcases/custom-tracking.webp"
-					></img>
-				</div>
-				<div
+            <div
 					style={{
 						background:
 							'radial-gradient(circle, rgba(103,27,255,0.06908700980392157) 0%, rgba(255,255,255,0) 50%)',
@@ -21,36 +15,35 @@ export default function CustomTracking() {
 				>
 					<div className="flex flex-col gap-3">
 						<p className="font-[Caveat] text-main text-2xl">
-							Custom event tracking
+							No more selling to third-parties
 						</p>
 						<h2 className="text-4xl max-w-md font-semibold text-gray-800">
-							Track custom events
+							Privacy focused analytics
 						</h2>
 					</div>
 					<p className="paragraph text-lg text-gray-600 max-w-md mb-4">
-						With Toolbird you can track engagement
-						with specific elements on your website.
-						Use custom event tracking to analyze and optimize
-						your website to perfection.
-
+						With Toolbird you can track your website visitors
+						without the need for cookies. Our privacy focused
+						analytics tool is GDPR, CCPA, and PECR compliant. No
+						data is shared or sold to any third-parties.
 					</p>
 					<div className="flex flex-col paragraph gap-5">
 						<div className="flex items-center gap-3">
 							<FaCheckCircle size={20} className="text-main" />
 							<p className="text-lg text-gray-600">
-								Quick setup
+								Cookie-less tracking.
 							</p>
 						</div>
 						<div className="flex items-center gap-3">
 							<FaCheckCircle size={20} className="text-main" />
 							<p className="text-lg text-gray-600">
-								Unlimited components
+								GDPR, CCPA, and PECR compliant.
 							</p>
 						</div>
 						<div className="flex items-center gap-3">
 							<FaCheckCircle size={20} className="text-main" />
 							<p className="text-lg text-gray-600">
-								Visual data
+								No data is shared with third-parties.
 							</p>
 						</div>
 					</div>
@@ -62,6 +55,12 @@ export default function CustomTracking() {
 							Start 14-day free trial
 						</Link>
 					</div>
+				</div>
+				<div className="bg-white border paragraph text-center rounded-[25px] border-gray-600/10">
+					<img
+						className="h-full w-full object-cover rounded-[25px]"
+						src="/showcases/lock.webp"
+					></img>
 				</div>
 			</div>
 		</section>

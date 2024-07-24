@@ -31,7 +31,7 @@ export default function Affiliate() {
 			/>
 			<AffiliateProcess />
 			<BlurSection
-				bottomMargin={true}
+				bottomMargin={false}
 				heading="Reasons to become a Toolbird Affiliate"
 				hook="Supercharge Your Earnings"
 			>
