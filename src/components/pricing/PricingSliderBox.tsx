@@ -3,6 +3,7 @@ import PLANS from './plans'
 
 import Slider from 'rc-slider'
 import 'rc-slider/assets/index.css'
+import Link from 'next/link'
 
 const Check = () => {
 	return (
@@ -27,7 +28,7 @@ export default function PricingSliderBox() {
 	const selectedPlan = PLANS[value]
 	return (
 		<div>
-			<div className="flex flex-col p-12 pb-0 w-full items-center justify-center gap-4">
+			<div className="flex flex-col w-full items-center justify-center gap-4">
 				<h2 className="text-2xl font-normal text-gray-600">
 					Up to{' '}
 					<span className="text-gray-800 font-semibold">
@@ -71,9 +72,9 @@ export default function PricingSliderBox() {
 						</div>
 						<div className="bg-slate-50 border-y py-3 px-7 border-gray-600/10">
 							<div className="flex">
-								<button className="bg-main transition-all text-center paragraph w-full hover:bg-main/80 text-sm font-semibold text-white px-6 py-2 rounded-full transiton-all">
+								<Link href={""} className="bg-main transition-all text-center paragraph w-full hover:bg-main/80 text-sm font-semibold text-white px-6 py-2 rounded-full transiton-all">
 									Start 14-day free trial
-								</button>
+								</Link>
 							</div>
 						</div>
 						<div className="paragraph">

@@ -32,16 +32,16 @@ export default function BentoGridComponent() {
 					<div className="grid grid-cols-1 gap-5 lg:grid-cols-3">
 						<BentoGridCard
 							Obj={{
-								heading: 'Live data',
+								heading: 'Analyze funnels',
 								description:
-									'Track the exact number of visitors being live on your page with our dashboard.',
+									'Get a thorough understanding of your users journeys to convert better.',
 							}}
 						/>
 						<BentoGridCard
 							Obj={{
-								heading: 'Live data',
+								heading: 'Explore sessions',
 								description:
-									'Track the exact number of visitors being live on your page with our dashboard.',
+									'Track user-sessions and learn more about individual user journeys.',
 							}}
 						/>
 						<BentoGridCard

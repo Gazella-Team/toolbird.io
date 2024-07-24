@@ -47,6 +47,7 @@ export default function Home() {
 			>
 				<SecondBentoGridComponent />
 			</SectionIntro>
+			{/*
 			<SectionIntro
 				topMargin={true}
 				heading="People 💜 Toolbird"
@@ -56,6 +57,7 @@ export default function Home() {
 				{' '}
 			</SectionIntro>
 			<CustomerSlider />
+			 */}
 			<LightweightScript />
 			<CustomTracking />
 			<BlurSection
