@@ -10,13 +10,13 @@ export default function Hero() {
 			<div className="w-[86%] mx-auto max-w-6xl relative flex flex-col gap-5">
 				<Reveal delayTime={0}>
 					<p className="font-[Caveat] text-main mb-1 text-2xl md:text-3xl">
-						The all-in-one toolbox
+					Introducing Toolbird Analytics:
 					</p>
 				</Reveal>
 				<Reveal delayTime={0.1}>
-					<h1 className="text-5xl md:text-6xl xl:text-7xl max-w-[800px] mx-auto font-extrabold text-gray-800 xl:leading-[110%]">
-						Collect and manage all user-insights in one place
-					</h1>
+					<h1 className="text-5xl md:text-6xl xl:text-7xl max-w-[800px] mx-auto font-bold text-gray-800 xl:leading-[110%]">
+					Easy to use and privacy-friendly Google Analytics
+					alternative					</h1>
 					{/*
 					 					<h1 className="text-3xl md:text-4xl xl:text-6xl max-w-[1300px] mx-auto font-extrabold text-gray-800 xl:leading-[60px]">
 						Get{' '}
@@ -36,9 +36,9 @@ export default function Hero() {
 				</Reveal>
 				<Reveal delayTime={0.2}>
 					<p className="text-base md:text-lg mx-auto xl:text-xl font-regular paragraph mb-2 max-w-[600px] w-[85%] text-gray-600">
-						Toolbird provides web analytics, feedback hub and user
-						surveys, all in one place. Get better overview and save
-						money today.
+					Toolbird is privacy-focused, lightweight and
+							intuitive web analytics, allowing you to track
+							analytics of all traffic going through your website.
 					</p>
 				</Reveal>
 				<RevealLight delayTime={0.4}>

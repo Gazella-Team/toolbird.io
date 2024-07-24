@@ -85,40 +85,38 @@ export default function Navbar(props: NavbarProps) {
 				<div className="bg-white text-left text-gray-800 flex flex-col justify-between gap-4 font-semibold text-3xl w-[100%] mx-auto py-8 h-[calc(100vh-40px)] lg:hidden">
 					<div
 						className={cn(
-							'flex font-bold flex-col gap-6 w-[86%] mx-auto'
+							'flex font-semibold flex-col gap-6 w-[86%] mx-auto'
 						)}
 					>
-						<div className="flex flex-col gap-6 border-b border-b-gray-600/10 pb-4">
-							<RefLink
-								onClick={() => setMenuClicked(false)}
-								href="/analytics"
-							>
-								Web analytics
-							</RefLink>
-							<RefLink
-								onClick={() => setMenuClicked(false)}
-								href="/coming-soon"
-							>
-								Feedback Hub
-							</RefLink>
-							<RefLink
-								onClick={() => setMenuClicked(false)}
-								href="/coming-soon"
-							>
-								User Surveys
-							</RefLink>
-						</div>
+						<RefLink
+							onClick={() => setMenuClicked(false)}
+							href="/privacy-focused"
+						>
+							Privacy Focused
+						</RefLink>
+						<RefLink
+							onClick={() => setMenuClicked(false)}
+							href="/lightweight-script"
+						>
+							Lightweight Script
+						</RefLink>
+						<RefLink
+							onClick={() => setMenuClicked(false)}
+							href="/competitive-price"
+						>
+							Competetive Pricing
+						</RefLink>
+						<RefLink
+							onClick={() => setMenuClicked(false)}
+							href="/fast-setup"
+						>
+							1 minute setup
+						</RefLink>
 						<RefLink
 							onClick={() => setMenuClicked(false)}
 							href="/pricing"
 						>
 							Pricing
-						</RefLink>
-						<RefLink
-							onClick={() => setMenuClicked(false)}
-							href="/blog/introducing-toolbird"
-						>
-							About
 						</RefLink>
 						<RefLink
 							onClick={() => setMenuClicked(false)}
