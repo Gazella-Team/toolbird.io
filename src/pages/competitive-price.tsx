@@ -34,6 +34,7 @@ export default function CompetitivePrice() {
 							solution.
 						</p>
 					</div>
+                    <img className='rounded-2xl' src='/showcases/dashboard.webp'></img>
 					<div className="flex mt-5 flex-col gap-6">
 						<h2 className="text-2xl font-semibold">
 							A solution matching compliance
