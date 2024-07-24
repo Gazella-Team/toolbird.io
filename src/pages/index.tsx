@@ -174,7 +174,7 @@ export default function Home() {
 							</h2>
 							<p className="text-gray-600">
 								No billing surprises. With Toolbird you get
-								unlimited analytics for as little as $9/month.
+								unlimited analytics starting at as little as $9/month.
 							</p>
 						</div>
 					</div>

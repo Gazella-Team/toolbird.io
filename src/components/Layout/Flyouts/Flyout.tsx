@@ -16,25 +16,25 @@ import {
 const solutions = [
 	{
 		name: 'Privacy Focused',
-		description: 'Privacy-first web analytics of your visitors',
+		description: 'Privacy-first web analytics of your visitors.',
 		href: '/privacy-focused',
 		icon: <ShieldCheckIcon className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
 		name: 'Lightweight Script',
-		description: 'Privacy-first web analytics of your visitors',
+		description: 'Keep your website fast with our lightweight script.',
 		href: '/analytics',
 		icon: <Zap className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
 		name: 'Best marketprice',
-		description: 'Privacy-first web analytics of your visitors',
+		description: 'Get worldclass analytics for a competitive price.',
 		href: '/analytics',
 		icon: <CreditCard className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
 		name: '1 minute setup',
-		description: 'Privacy-first web analytics of your visitors',
+		description: 'No advanced onboardings. Get started in minutes.',
 		href: '/analytics',
 		icon: <Clock className="text-gray-800 h-[18px] w-[18px]" />,
 	},
