@@ -9,7 +9,7 @@ import Link from 'next/link'
 export default function ForAgencies() {
 	return (
 		<Layout whiteBeforeScroll={true} white={true}>
-			<Meta title={`Toolbird: A web analytics tool for agencies to`} />
+			<Meta title={`Toolbird: A web analytics tool to help agenices and freelancers gain more visitors and increase conversion rates`} />
 			<section
 				style={{
 					background:
