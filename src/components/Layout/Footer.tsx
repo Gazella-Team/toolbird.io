@@ -13,23 +13,19 @@ const FOOTER_LINKS: {
 	links: { label: string; href: string; target?: string }[]
 }[] = [
 	{
-		title: 'Product',
+		title: 'Solutions',
 		links: [
 			{
-				label: 'Privacy focused',
-				href: '/privacy-focused',
+				label: 'For agencies',
+				href: '/for-agencies',
 			},
 			{
-				label: 'Lightweight script',
-				href: '/lightweight-script',
+				label: 'For creators',
+				href: '/for-creators',
 			},
 			{
-				label: 'Competitive pricing',
-				href: '/competitive-price',
-			},
-			{
-				label: '1 minute setup',
-				href: '/fast-setup',
+				label: 'For startups',
+				href: '/for-startups',
 			},
 		],
 	},

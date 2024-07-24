@@ -4,8 +4,11 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { ChartBarIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import {
+	Building,
 	Clock,
 	CreditCard,
+	Instagram,
+	Layers,
 	MessageSquare,
 	MessagesSquare,
 	PieChart,
@@ -15,28 +18,22 @@ import {
 
 const solutions = [
 	{
-		name: 'Privacy Focused',
-		description: 'Privacy-first web analytics of your visitors.',
-		href: '/privacy-focused',
-		icon: <ShieldCheckIcon className="text-gray-800 h-[18px] w-[18px]" />,
+		name: 'For agencies',
+		description: 'How agencies can benefit from Toolbird',
+		href: '/for-agencies',
+		icon: <Layers className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
-		name: 'Lightweight Script',
-		description: 'Keep your website fast with our lightweight script.',
-		href: '/lightweight-script',
-		icon: <Zap className="text-gray-800 h-[18px] w-[18px]" />,
+		name: 'For creators',
+		description: 'How creators can benefit from Toolbird',
+		href: '/for-creators',
+		icon: <Instagram className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
-		name: 'Competitive pricing',
-		description: 'Get worldclass analytics for a competitive price.',
-		href: '/competitive-price',
-		icon: <CreditCard className="text-gray-800 h-[18px] w-[18px]" />,
-	},
-	{
-		name: '1 minute setup',
-		description: 'No advanced onboardings. Get started in minutes.',
-		href: '/fast-setup',
-		icon: <Clock className="text-gray-800 h-[18px] w-[18px]" />,
+		name: 'For startups',
+		description: 'How startups can benefit from Toolbird',
+		href: '/for-startups',
+		icon: <Building className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 ]
 
@@ -44,7 +41,7 @@ export default function Flyout() {
 	return (
 		<Popover className="relative active:border-none focus:border-none">
 			<Popover.Button className="inline-flex items-center gap-x-1 text-sm active:border-none font-medium leading-6 text-gray-800">
-				<span>Why Toolbird</span>
+				<span>Solutions</span>
 				<ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
 			</Popover.Button>
 

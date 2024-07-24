@@ -90,27 +90,21 @@ export default function Navbar(props: NavbarProps) {
 					>
 						<RefLink
 							onClick={() => setMenuClicked(false)}
-							href="/privacy-focused"
+							href="/for-agencies"
 						>
-							Privacy Focused
+							For agencies
 						</RefLink>
 						<RefLink
 							onClick={() => setMenuClicked(false)}
-							href="/lightweight-script"
+							href="/for-creators"
 						>
-							Lightweight Script
+							For creators
 						</RefLink>
 						<RefLink
 							onClick={() => setMenuClicked(false)}
-							href="/competitive-price"
+							href="/for-startups"
 						>
-							Competetive Pricing
-						</RefLink>
-						<RefLink
-							onClick={() => setMenuClicked(false)}
-							href="/fast-setup"
-						>
-							1 minute setup
+							For startups
 						</RefLink>
 						<RefLink
 							onClick={() => setMenuClicked(false)}
