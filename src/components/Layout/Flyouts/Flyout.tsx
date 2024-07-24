@@ -23,19 +23,19 @@ const solutions = [
 	{
 		name: 'Lightweight Script',
 		description: 'Keep your website fast with our lightweight script.',
-		href: '/analytics',
+		href: '/lightweight-script',
 		icon: <Zap className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
-		name: 'Best marketprice',
+		name: 'Competitive pricing',
 		description: 'Get worldclass analytics for a competitive price.',
-		href: '/analytics',
+		href: '/competitive-price',
 		icon: <CreditCard className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 	{
 		name: '1 minute setup',
 		description: 'No advanced onboardings. Get started in minutes.',
-		href: '/analytics',
+		href: '/fast-setup',
 		icon: <Clock className="text-gray-800 h-[18px] w-[18px]" />,
 	},
 ]

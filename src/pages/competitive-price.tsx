@@ -5,7 +5,7 @@ import PricingFAQ from '@/components/FAQ/PricingFAQ'
 import Meta from '@/components/Layout/Meta'
 import CurvePageIntro from '@/components/CurvePageIntro'
 
-export default function PrivacyFocused() {
+export default function CompetitivePrice() {
 	return (
 		<Layout whiteBeforeScroll={true} white={true}>
 			<Meta title={`Pricing - Toolbird.io`} />
@@ -18,7 +18,7 @@ export default function PrivacyFocused() {
 			>
 				<div className="w-[86%] text-gray-800 flex flex-col gap-10 paragraph mx-auto max-w-xl">
 					<h2 className="text-4xl font-semibold">
-						Toolbird: A privacy-focused web analytics tool compliant with GDPR, CCPA, and PECR.
+						Toolbird: Get worldclass analytics to a usage-based competitive price
 					</h2>
 					<div>
 						<p className="text-gray-600">

@@ -16,20 +16,20 @@ const FOOTER_LINKS: {
 		title: 'Product',
 		links: [
 			{
-				label: 'Privact friendly',
-				href: '/analytics',
+				label: 'Privacy focused',
+				href: '/privacy-focused',
 			},
 			{
 				label: 'Lightweight script',
-				href: '/analytics',
+				href: '/lightweight-script',
 			},
 			{
-				label: 'Custom tracking',
-				href: '/analytics',
+				label: 'Competitive pricing',
+				href: '/competitive-price',
 			},
 			{
-				label: 'Testimonials',
-				href: '/analytics',
+				label: '1 minute setup',
+				href: '/fast-setup',
 			},
 		],
 	},
@@ -68,23 +68,6 @@ const FOOTER_LINKS: {
 			{
 				label: 'UTM Link Generator',
 				href: '/tools/utm-generator',
-			},
-		],
-	},
-	{
-		title: 'Industry',
-		links: [
-			{
-				label: 'For startups',
-				href: '/blog',
-			},
-			{
-				label: 'For creators',
-				href: 'https://docs.toolbird.io/',
-			},
-			{
-				label: 'For agencies',
-				href: '/tools',
 			},
 		],
 	},
